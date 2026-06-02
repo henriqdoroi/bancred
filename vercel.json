@@ -1,0 +1,124 @@
+{
+  "version": 2,
+  "functions": {
+    "api/**/*.php": {
+      "runtime": "@vercel/php@2.0.0"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/cpf",
+      "destination": "/cpf.html"
+    },
+    {
+      "source": "/pessoa",
+      "destination": "/pessoa.html"
+    },
+    {
+      "source": "/simulacao",
+      "destination": "/simulacao.html"
+    },
+    {
+      "source": "/analise",
+      "destination": "/analise.html"
+    },
+    {
+      "source": "/aprovado",
+      "destination": "/aprovado.html"
+    },
+    {
+      "source": "/endereco",
+      "destination": "/endereco.html"
+    },
+    {
+      "source": "/credenciais",
+      "destination": "/credenciais.html"
+    },
+    {
+      "source": "/configurando-conta",
+      "destination": "/configurando-conta.html"
+    },
+    {
+      "source": "/conta",
+      "destination": "/conta.html"
+    },
+    {
+      "source": "/conta/saque",
+      "destination": "/conta/saque.html"
+    },
+    {
+      "source": "/conta/saque/confirmar",
+      "destination": "/conta/saque/confirmar.html"
+    },
+    {
+      "source": "/conta/saque/seguro-prestamista",
+      "destination": "/conta/saque/seguro-prestamista.html"
+    },
+    {
+      "source": "/conta/saque/finalizar",
+      "destination": "/conta/saque/finalizar.html"
+    },
+    {
+      "source": "/conta/checkout",
+      "destination": "/conta/checkout.html"
+    },
+    {
+      "source": "/consulta/cpf",
+      "destination": "/api/consulta/cpf.php"
+    },
+    {
+      "source": "/consulta/processar",
+      "destination": "/api/consulta/processar.php"
+    },
+    {
+      "source": "/consulta/confirmar",
+      "destination": "/api/consulta/confirmar.php"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*\\.html?)",
+      "dest": "/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.htm"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
+        }
+      ]
+    },
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "GET, POST, OPTIONS"
+        },
+        {
+          "key": "Access-Control-Allow-Headers",
+          "value": "Content-Type, X-CSRF-TOKEN"
+        }
+      ]
+    }
+  ]
+}

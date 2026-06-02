@@ -1,0 +1,113 @@
+═══════════════════════════════════════════════════════════════
+  🚀 CONFIGURAÇÃO XAMPP - PASSO A PASSO SIMPLES
+═══════════════════════════════════════════════════════════════
+
+📋 PASSO 1: INICIAR O XAMPP
+───────────────────────────────────────────────────────────────
+1. Abra o "XAMPP Control Panel"
+   (Procure no menu Iniciar do Windows)
+
+2. Clique no botão "Start" ao lado de "Apache"
+   ⚠️ Se der erro de porta, veja o final deste arquivo
+
+3. Deve ficar verde ✅ quando estiver rodando
+
+
+📋 PASSO 2: COPIAR ARQUIVOS
+───────────────────────────────────────────────────────────────
+1. Abra o Explorador de Arquivos do Windows
+
+2. Vá até a pasta do XAMPP:
+   C:\xampp\htdocs\
+
+3. Copie TODA a pasta "bancred.site" para lá
+   
+   Resultado:
+   C:\xampp\htdocs\bancred.site\
+   ├── consulta\
+   │   └── cpf.php
+   ├── cpf.html
+   └── ... (todos os outros arquivos)
+
+
+📋 PASSO 3: TESTAR
+───────────────────────────────────────────────────────────────
+1. Abra o navegador (Chrome, Firefox, etc.)
+
+2. Acesse este link:
+   http://localhost/bancred.site/teste-xampp.php
+   
+   Isso vai mostrar se está tudo OK ✅
+
+3. Se tudo estiver OK, acesse:
+   http://localhost/bancred.site/cpf.html
+   
+   E teste o formulário!
+
+
+═══════════════════════════════════════════════════════════════
+  ⚠️ PROBLEMAS COMUNS
+═══════════════════════════════════════════════════════════════
+
+❌ ERRO: "Port 80 already in use"
+───────────────────────────────────────────────────────────────
+Solução:
+1. No XAMPP Control Panel, clique em "Config" ao lado de Apache
+2. Selecione "httpd.conf"
+3. Procure por: Listen 80
+4. Mude para: Listen 8080
+5. Salve (Ctrl+S)
+6. Reinicie o Apache
+7. Acesse: http://localhost:8080/bancred.site/cpf.html
+
+
+❌ ERRO: Apache não inicia
+───────────────────────────────────────────────────────────────
+Solução:
+1. Feche programas que usam porta 80:
+   - Skype
+   - IIS (Internet Information Services)
+   - Outros servidores web
+
+2. Execute XAMPP como Administrador:
+   - Clique com botão direito no XAMPP
+   - Selecione "Executar como administrador"
+
+
+❌ ERRO: "cURL não habilitado"
+───────────────────────────────────────────────────────────────
+Solução:
+1. Abra: C:\xampp\php\php.ini
+2. Procure por: ;extension=curl
+3. Remova o ponto e vírgula (;)
+   Fica: extension=curl
+4. Salve o arquivo
+5. Reinicie o Apache no XAMPP
+
+
+═══════════════════════════════════════════════════════════════
+  ✅ CHECKLIST
+═══════════════════════════════════════════════════════════════
+
+[ ] XAMPP instalado
+[ ] Apache iniciado (verde no XAMPP)
+[ ] Arquivos copiados para C:\xampp\htdocs\bancred.site\
+[ ] Acessei http://localhost/bancred.site/teste-xampp.php
+[ ] Todos os testes passaram ✅
+[ ] Testei o formulário em cpf.html
+
+
+═══════════════════════════════════════════════════════════════
+  💡 DICAS
+═══════════════════════════════════════════════════════════════
+
+• Sempre inicie o Apache antes de testar
+• Use http://localhost/... nunca file://
+• Mantenha o XAMPP Control Panel aberto
+• Se der erro, veja o Console do navegador (F12)
+
+
+═══════════════════════════════════════════════════════════════
+
+
+

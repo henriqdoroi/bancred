@@ -1,0 +1,25 @@
+{
+  "name": "bancred-org",
+  "version": "1.0.0",
+  "description": "Bancred - Sistema de Empréstimo Online",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build step required'",
+    "start": "vercel dev"
+  },
+  "keywords": [
+    "emprestimo",
+    "pix",
+    "bancred"
+  ],
+  "author": "Bancred",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.x"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}
+
+
+

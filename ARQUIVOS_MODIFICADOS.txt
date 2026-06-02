@@ -1,0 +1,109 @@
+========================================
+ARQUIVOS MODIFICADOS PARA TESTE
+========================================
+
+Copie estes arquivos para: C:\xampp\htdocs\new\
+
+PASTAS E ARQUIVOS PRINCIPAIS:
+-----------------------------
+conta/
+  ├── saque/
+  │   ├── iof2.htm (MODIFICADO - redirecionamentos corrigidos)
+  │   ├── tarifa-cadastro.htm (MODIFICADO - redirecionamentos corrigidos)
+  │   └── iof.html
+  ├── aumento-limite.htm (MODIFICADO - redirecionamentos corrigidos)
+  ├── assinatura.htm (MODIFICADO - redirecionamentos corrigidos)
+  ├── confirmacao-dados.htm (MODIFICADO - redirecionamentos corrigidos)
+  └── checkout/
+      └── pix/
+          ├── payment.html (MODIFICADO - modo de teste adicionado)
+          ├── test-payment.php (NOVO - página de teste)
+          └── test-simulate.php (NOVO - simulador de pagamento)
+
+consulta/
+  └── confirmar-test.php (NOVO - endpoint de teste)
+
+ARQUIVOS DE TESTE:
+------------------
+teste-funil.php (NOVO - página principal de teste)
+copiar-para-xampp.bat (NOVO - script para copiar)
+TESTE_COMPLETO.md (NOVO - documentação)
+INSTRUCOES_TESTE.md (NOVO - instruções)
+
+========================================
+COMO COPIAR:
+========================================
+
+OPCAO 1 - Script Automatico:
+1. Execute: copiar-para-xampp.bat
+2. Aguarde a copia terminar
+3. Acesse: http://localhost/new/teste-funil.php
+
+OPCAO 2 - Manual:
+1. Copie toda a pasta "new" para: C:\xampp\htdocs\
+2. Certifique-se de que a estrutura fique: C:\xampp\htdocs\new\
+3. Acesse: http://localhost/new/teste-funil.php
+
+========================================
+ARQUIVOS QUE FORAM MODIFICADOS:
+========================================
+
+1. conta/saque/iof2.htm
+   - Adicionada funcao getBaseUrl()
+   - Removido redirecionamento para bancred.shop no localhost
+   - Criacao automatica de userData fake em modo de teste
+
+2. conta/saque/tarifa-cadastro.htm
+   - Adicionada funcao getBaseUrl()
+   - Corrigido redirecionamento para usar caminhos relativos
+
+3. conta/aumento-limite.htm
+   - Adicionada funcao getBaseUrl()
+   - Removido redirecionamento para bancred.shop no localhost
+   - Criacao automatica de userData fake em modo de teste
+
+4. conta/assinatura.htm
+   - Adicionada funcao getBaseUrl()
+   - Removido redirecionamento para bancred.shop no localhost
+   - Criacao automatica de userData fake em modo de teste
+   - Corrigido redirecionamento do botao Continuar
+
+5. conta/confirmacao-dados.htm
+   - Adicionada funcao getBaseUrl()
+   - Removido redirecionamento para bancred.shop no localhost
+   - Criacao automatica de userData fake em modo de teste
+   - Corrigido redirecionamento final
+
+6. conta/checkout/pix/payment.html
+   - Adicionado modo de teste (detecta ?test=1 na URL)
+   - Confirmacao automatica de pagamento em modo de teste
+   - Corrigidas extensoes dos arquivos (.htm vs .html)
+   - Corrigidos todos os redirecionamentos
+
+========================================
+ARQUIVOS NOVOS CRIADOS:
+========================================
+
+1. conta/checkout/pix/test-payment.php
+   - Pagina principal de teste com botoes para cada upsell
+
+2. conta/checkout/pix/test-simulate.php
+   - Simula pagamentos e redireciona para payment.html
+
+3. consulta/confirmar-test.php
+   - Endpoint de teste para confirmar pagamentos
+
+4. teste-funil.php
+   - Pagina de teste na raiz do projeto
+
+5. copiar-para-xampp.bat
+   - Script para copiar arquivos automaticamente
+
+6. TESTE_COMPLETO.md
+   - Documentacao completa de teste
+
+7. INSTRUCOES_TESTE.md
+   - Instrucoes detalhadas
+
+========================================
+

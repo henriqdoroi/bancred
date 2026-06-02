@@ -1,0 +1,546 @@
+Uri: https://bancred.site/conta/checkout/pix/33580228
+File Name: C:\Downloaded Web Sites\bancred.site\conta\checkout\pix\33580228.html
+Content Type: text/html
+
+Uri: https://bancred.site/public/css/global.css
+File Name: C:\Downloaded Web Sites\bancred.site\public\css\global-14.css
+Content Type: text/css
+
+Uri: https://bancred.site/public/images/favicon.ico
+File Name: C:\Downloaded Web Sites\bancred.site\public\images\favicon-17.ico
+Content Type: image/x-icon
+
+Uri: https://bancred.site/public/images/pix-106.svg
+File Name: C:\Downloaded Web Sites\bancred.site\public\images\pix-106.svg
+Content Type: image/svg+xml
+
+Uri: https://bancred.site/public/js/jquery.mask.min.js
+File Name: C:\Downloaded Web Sites\bancred.site\public\js\jquery.mask.min-17.js
+Content Type: application/javascript
+
+Uri: https://bancred.site/public/js/jquery.min.js
+File Name: C:\Downloaded Web Sites\bancred.site\public\js\jquery.min-17.js
+Content Type: application/javascript
+
+Uri: https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js
+File Name: C:\Downloaded Web Sites\bancred.site\npm\alpinejs@3.x.x\dist\cdn.min-17.js
+Content Type: application/javascript
+
+Uri: https://cdn.utmify.com.br/scripts/utms/latest.js
+File Name: C:\Downloaded Web Sites\bancred.site\scripts\utms\latest-17.js
+Content Type: text/javascript
+
+Uri: https://quickchart.io/qr?text=00020101021226820014br.gov.bcb.pix2560qrcode.pagsm.com.br%2Fpix%2Fc9b7f486-dde8-403c-8ba1-f6acde6b3a5d5204000053039865802BR59079inbank6006PARANA61088668000062070503***6304B6BE&ecLevel=Q&margin=0&size=300
+File Name: C:\Downloaded Web Sites\bancred.site\qr
+Content Type: image/png
+
+Uri: https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015
+File Name: C:\Downloaded Web Sites\bancred.site\beacon.min.js\vcd15cbe7772f49c399c6a5babf22c1241717689176015-17
+Content Type: text/javascript
+
+s\vcd15cbe7772f49c399c6a5babf22c1241717689176015-16
+Content Type: text/javascript
+
+v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTc2dthjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTc69thjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTc69thjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTcB9xhjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTcB9xhjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTccNxhjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTccNxhjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTch9thjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTch9thjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTcPtxhjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTcPtxhjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTcWdthjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTcWdthjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTcWdxhjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTcWdxhjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnOak4j1ebLhAm8SrXTc2dphjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnOak4j1ebLhAm8SrXTc2dphjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnOak4j1ebLhAm8SrXTc2dthjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnOak4j1ebLhAm8SrXTc2dthjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnOak4j1ebLhAm8SrXTc69thjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnOak4j1ebLhAm8SrXTc69thjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnOak4j1ebLhAm8SrXTcB9xhjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnOak4j1ebLhAm8SrXTcB9xhjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnOak4j1ebLhAm8SrXTccNxhjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnOak4j1ebLhAm8SrXTccNxhjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnOak4j1ebLhAm8SrXTch9thjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnOak4j1ebLhAm8SrXTch9thjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnOak4j1ebLhAm8SrXTcPtxhjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnOak4j1ebLhAm8SrXTcPtxhjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnOak4j1ebLhAm8SrXTcWdthjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnOak4j1ebLhAm8SrXTcWdthjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnOak4j1ebLhAm8SrXTcWdxhjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnOak4j1ebLhAm8SrXTcWdxhjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnOCk4j1ebLhAm8SrXTc2dphjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnOCk4j1ebLhAm8SrXTc2dphjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnOCk4j1ebLhAm8SrXTc2dthjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnOCk4j1ebLhAm8SrXTc2dthjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnOCk4j1ebLhAm8SrXTc69thjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnOCk4j1ebLhAm8SrXTc69thjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnOCk4j1ebLhAm8SrXTcB9xhjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnOCk4j1ebLhAm8SrXTcB9xhjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnOCk4j1ebLhAm8SrXTccNxhjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnOCk4j1ebLhAm8SrXTccNxhjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnOCk4j1ebLhAm8SrXTch9thjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnOCk4j1ebLhAm8SrXTch9thjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnOCk4j1ebLhAm8SrXTcPtxhjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnOCk4j1ebLhAm8SrXTcPtxhjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnOCk4j1ebLhAm8SrXTcWdthjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnOCk4j1ebLhAm8SrXTcWdthjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnOCk4j1ebLhAm8SrXTcWdxhjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnOCk4j1ebLhAm8SrXTcWdxhjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnOKk4j1ebLhAm8SrXTc2dphjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnOKk4j1ebLhAm8SrXTc2dphjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnOKk4j1ebLhAm8SrXTc2dthjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnOKk4j1ebLhAm8SrXTc2dthjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnOKk4j1ebLhAm8SrXTc69thjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnOKk4j1ebLhAm8SrXTc69thjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnOKk4j1ebLhAm8SrXTcB9xhjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnOKk4j1ebLhAm8SrXTcB9xhjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnOKk4j1ebLhAm8SrXTccNxhjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnOKk4j1ebLhAm8SrXTccNxhjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnOKk4j1ebLhAm8SrXTch9thjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnOKk4j1ebLhAm8SrXTch9thjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnOKk4j1ebLhAm8SrXTcPtxhjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnOKk4j1ebLhAm8SrXTcPtxhjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnOKk4j1ebLhAm8SrXTcWdthjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnOKk4j1ebLhAm8SrXTcWdthjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnOKk4j1ebLhAm8SrXTcWdxhjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnOKk4j1ebLhAm8SrXTcWdxhjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnOqk4j1ebLhAm8SrXTc2dphjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnOqk4j1ebLhAm8SrXTc2dphjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnOqk4j1ebLhAm8SrXTc2dthjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnOqk4j1ebLhAm8SrXTc2dthjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnOqk4j1ebLhAm8SrXTc69thjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnOqk4j1ebLhAm8SrXTc69thjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnOqk4j1ebLhAm8SrXTcB9xhjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnOqk4j1ebLhAm8SrXTcB9xhjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnOqk4j1ebLhAm8SrXTccNxhjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnOqk4j1ebLhAm8SrXTccNxhjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnOqk4j1ebLhAm8SrXTch9thjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnOqk4j1ebLhAm8SrXTch9thjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnOqk4j1ebLhAm8SrXTcPtxhjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnOqk4j1ebLhAm8SrXTcPtxhjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnOqk4j1ebLhAm8SrXTcWdthjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnOqk4j1ebLhAm8SrXTcWdthjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnOqk4j1ebLhAm8SrXTcWdxhjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnOqk4j1ebLhAm8SrXTcWdxhjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnPKk4j1ebLhAm8SrXTc2dphjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnPKk4j1ebLhAm8SrXTc2dphjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnPKk4j1ebLhAm8SrXTc2dthjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnPKk4j1ebLhAm8SrXTc2dthjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnPKk4j1ebLhAm8SrXTc69thjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnPKk4j1ebLhAm8SrXTc69thjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnPKk4j1ebLhAm8SrXTcB9xhjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnPKk4j1ebLhAm8SrXTcB9xhjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnPKk4j1ebLhAm8SrXTccNxhjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnPKk4j1ebLhAm8SrXTccNxhjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnPKk4j1ebLhAm8SrXTch9thjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnPKk4j1ebLhAm8SrXTch9thjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnPKk4j1ebLhAm8SrXTcPtxhjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnPKk4j1ebLhAm8SrXTcPtxhjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnPKk4j1ebLhAm8SrXTcWdthjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnPKk4j1ebLhAm8SrXTcWdthjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnPKk4j1ebLhAm8SrXTcWdxhjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnPKk4j1ebLhAm8SrXTcWdxhjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnPqk4j1ebLhAm8SrXTc2dphjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnPqk4j1ebLhAm8SrXTc2dphjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnPqk4j1ebLhAm8SrXTc2dthjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnPqk4j1ebLhAm8SrXTc2dthjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnPqk4j1ebLhAm8SrXTc69thjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnPqk4j1ebLhAm8SrXTc69thjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnPqk4j1ebLhAm8SrXTcB9xhjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnPqk4j1ebLhAm8SrXTcB9xhjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnPqk4j1ebLhAm8SrXTccNxhjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnPqk4j1ebLhAm8SrXTccNxhjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnPqk4j1ebLhAm8SrXTch9thjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnPqk4j1ebLhAm8SrXTch9thjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnPqk4j1ebLhAm8SrXTcPtxhjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnPqk4j1ebLhAm8SrXTcPtxhjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnPqk4j1ebLhAm8SrXTcWdthjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnPqk4j1ebLhAm8SrXTcWdthjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnPqk4j1ebLhAm8SrXTcWdxhjQ.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCM3FwrK3iLTcvneQg7Ca725JhhKnPqk4j1ebLhAm8SrXTcWdxhjQ-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp506jIw2boKoduKmMEVuBWYMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp506jIw2boKoduKmMEVuBWYMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp506jIw2boKoduKmMEVuDyfMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp506jIw2boKoduKmMEVuDyfMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp506jIw2boKoduKmMEVuDyYMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp506jIw2boKoduKmMEVuDyYMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp506jIw2boKoduKmMEVuFuYMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp506jIw2boKoduKmMEVuFuYMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp506jIw2boKoduKmMEVuGKYMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp506jIw2boKoduKmMEVuGKYMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp506jIw2boKoduKmMEVuI6fMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp506jIw2boKoduKmMEVuI6fMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp506jIw2boKoduKmMEVuLyeMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp506jIw2boKoduKmMEVuLyeMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp506jIw2boKoduKmMEVuLyfMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp506jIw2boKoduKmMEVuLyfMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp506jIw2boKoduKmMEVuOKfMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp506jIw2boKoduKmMEVuOKfMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50ijIw2boKoduKmMEVuBWYMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50ijIw2boKoduKmMEVuBWYMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50ijIw2boKoduKmMEVuDyfMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50ijIw2boKoduKmMEVuDyfMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50ijIw2boKoduKmMEVuDyYMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50ijIw2boKoduKmMEVuDyYMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50ijIw2boKoduKmMEVuFuYMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50ijIw2boKoduKmMEVuFuYMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50ijIw2boKoduKmMEVuGKYMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50ijIw2boKoduKmMEVuGKYMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50ijIw2boKoduKmMEVuI6fMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50ijIw2boKoduKmMEVuI6fMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50ijIw2boKoduKmMEVuLyeMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50ijIw2boKoduKmMEVuLyeMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50ijIw2boKoduKmMEVuLyfMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50ijIw2boKoduKmMEVuLyfMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50ijIw2boKoduKmMEVuOKfMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50ijIw2boKoduKmMEVuOKfMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50ojIw2boKoduKmMEVuBWYMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50ojIw2boKoduKmMEVuBWYMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50ojIw2boKoduKmMEVuDyfMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50ojIw2boKoduKmMEVuDyfMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50ojIw2boKoduKmMEVuDyYMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50ojIw2boKoduKmMEVuDyYMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50ojIw2boKoduKmMEVuFuYMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50ojIw2boKoduKmMEVuFuYMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50ojIw2boKoduKmMEVuGKYMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50ojIw2boKoduKmMEVuGKYMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50ojIw2boKoduKmMEVuI6fMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50ojIw2boKoduKmMEVuI6fMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50ojIw2boKoduKmMEVuLyeMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50ojIw2boKoduKmMEVuLyeMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50ojIw2boKoduKmMEVuLyfMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50ojIw2boKoduKmMEVuLyfMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50ojIw2boKoduKmMEVuOKfMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50ojIw2boKoduKmMEVuOKfMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50qjIw2boKoduKmMEVuBWYMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50qjIw2boKoduKmMEVuBWYMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50qjIw2boKoduKmMEVuDyfMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50qjIw2boKoduKmMEVuDyfMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50qjIw2boKoduKmMEVuDyYMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50qjIw2boKoduKmMEVuDyYMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50qjIw2boKoduKmMEVuFuYMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50qjIw2boKoduKmMEVuFuYMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50qjIw2boKoduKmMEVuGKYMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50qjIw2boKoduKmMEVuGKYMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50qjIw2boKoduKmMEVuI6fMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50qjIw2boKoduKmMEVuI6fMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50qjIw2boKoduKmMEVuLyeMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50qjIw2boKoduKmMEVuLyeMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50qjIw2boKoduKmMEVuLyfMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50qjIw2boKoduKmMEVuLyfMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50qjIw2boKoduKmMEVuOKfMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50qjIw2boKoduKmMEVuOKfMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuBWYMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuBWYMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuDyfMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuDyfMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuDyYMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuDyYMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuGKYMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuGKYMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuI6fMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuI6fMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyeMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyeMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuOKfMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuOKfMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50ujIw2boKoduKmMEVuBWYMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50ujIw2boKoduKmMEVuBWYMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50ujIw2boKoduKmMEVuDyfMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50ujIw2boKoduKmMEVuDyfMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50ujIw2boKoduKmMEVuDyYMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50ujIw2boKoduKmMEVuDyYMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50ujIw2boKoduKmMEVuFuYMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50ujIw2boKoduKmMEVuFuYMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50ujIw2boKoduKmMEVuGKYMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50ujIw2boKoduKmMEVuGKYMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50ujIw2boKoduKmMEVuI6fMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50ujIw2boKoduKmMEVuI6fMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50ujIw2boKoduKmMEVuLyeMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50ujIw2boKoduKmMEVuLyeMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50ujIw2boKoduKmMEVuLyfMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50ujIw2boKoduKmMEVuLyfMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50ujIw2boKoduKmMEVuOKfMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50ujIw2boKoduKmMEVuOKfMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50yjIw2boKoduKmMEVuBWYMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50yjIw2boKoduKmMEVuBWYMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50yjIw2boKoduKmMEVuDyfMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50yjIw2boKoduKmMEVuDyfMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50yjIw2boKoduKmMEVuDyYMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50yjIw2boKoduKmMEVuDyYMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50yjIw2boKoduKmMEVuFuYMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50yjIw2boKoduKmMEVuFuYMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50yjIw2boKoduKmMEVuGKYMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50yjIw2boKoduKmMEVuGKYMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50yjIw2boKoduKmMEVuI6fMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50yjIw2boKoduKmMEVuI6fMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50yjIw2boKoduKmMEVuLyeMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50yjIw2boKoduKmMEVuLyeMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50yjIw2boKoduKmMEVuLyfMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50yjIw2boKoduKmMEVuLyfMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50yjIw2boKoduKmMEVuOKfMZg.ttf
+File Name: C:\Downloaded Web Sites\bancred.site\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50yjIw2boKoduKmMEVuOKfMZg-2.ttf
+Content Type: font/ttf
+
+Uri: https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015
+File Name: C:\Downloaded Web Sites\bancred.site\beacon.min.js\vcd15cbe7772f49c399c6a5babf22c1241717689176015-11
+Content Type: text/javascript
+

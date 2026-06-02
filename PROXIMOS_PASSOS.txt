@@ -1,0 +1,47 @@
+========================================
+  PROXIMOS PASSOS - Node.js
+========================================
+
+Voce ja baixou o Node.js! Agora precisa INSTALAR:
+
+1. ENCONTRAR O ARQUIVO:
+   - Abra a pasta Downloads
+   - Procure: node-v20.x.x-x64.msi
+   - (ou qualquer arquivo .msi que comeca com "node")
+
+2. INSTALAR:
+   - Clique DUAS VEZES no arquivo .msi
+   - Se aparecer aviso de seguranca, clique "Mais informacoes" -> "Executar mesmo assim"
+   - Clique "Next" -> Marque "Automatically install..." -> "Next" -> "Install"
+   - Aguarde terminar -> "Finish"
+
+3. REINICIAR POWERSHELL:
+   - Feche este PowerShell COMPLETAMENTE
+   - Abra um NOVO PowerShell
+   - Digite: cd "C:\Downloaded Web Sites\bancred.site"
+
+4. VERIFICAR:
+   - Digite: node --version
+   - Se aparecer um numero (ex: v20.11.0), esta instalado! ✅
+
+5. INSTALAR VERCEL CLI:
+   - Digite: npm install -g vercel
+   - Aguarde terminar
+
+6. FAZER LOGIN:
+   - Digite: vercel login
+   - Siga as instrucoes na tela
+
+7. FAZER DEPLOY:
+   - Digite: vercel --prod
+
+========================================
+  DICA: Se nao encontrar o arquivo .msi
+========================================
+Baixe novamente em: https://nodejs.org/
+Clique no botao verde "Download Node.js (LTS)"
+
+========================================
+
+
+
