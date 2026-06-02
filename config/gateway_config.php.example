@@ -1,0 +1,40 @@
+<?php
+/**
+ * Configurações do Gateway PIX
+ * 
+ * INSTRUÇÕES:
+ * 1. Copie este arquivo para gateway_config.php
+ * 2. Preencha com as credenciais do seu gateway
+ * 3. NUNCA commite o arquivo gateway_config.php no Git
+ */
+
+return [
+    // Tipo de gateway (será definido após receber documentação)
+    'gateway' => 'seu_gateway_aqui', // Ex: 'gerencianet', 'pagseguro', 'mercadopago', etc.
+    
+    // Credenciais do gateway
+    'credentials' => [
+        'client_id' => 'SUA_CLIENT_ID_AQUI',
+        'client_secret' => 'SUA_CLIENT_SECRET_AQUI',
+        'api_key' => 'SUA_API_KEY_AQUI',
+        // Adicionar outras credenciais conforme necessário
+    ],
+    
+    // Ambiente (sandbox ou production)
+    'environment' => 'sandbox', // ou 'production'
+    
+    // URLs da API (serão preenchidas conforme documentação)
+    'api_url' => [
+        'sandbox' => 'https://sandbox-api.gateway.com.br',
+        'production' => 'https://api.gateway.com.br'
+    ],
+    
+    // Configurações adicionais
+    'settings' => [
+        'timeout' => 30, // Timeout em segundos
+        'retry_attempts' => 3, // Tentativas em caso de falha
+    ]
+];
+
+
+
